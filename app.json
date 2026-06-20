@@ -44,8 +44,7 @@
           "android": { "backgroundColor": "#FFFDF7" }
         }
       ],
-      "expo-font",
-      "react-native-purchases"
+      "expo-font"
     ],
     "experiments": { "typedRoutes": true, "reactCompiler": false },
     "extra": { "router": {} }
