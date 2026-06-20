@@ -1,0 +1,202 @@
+{
+  "id": "kanda",
+  "name_en": "Kanda",
+  "name_ja": "神田",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Kanda — where Tokyo's businessmen come to loosen their ties and lose their dignity. Suits by day, slurring by night. Tourists have no idea this place exists. Honestly? Their loss."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍛",
+      "label_en": "Curry",
+      "blurb_en": "Cheap, fast, legendary — student rocket fuel"
+    },
+    {
+      "icon": "🍜",
+      "label_en": "Soba",
+      "blurb_en": "Tokyo's oldest noodle counters"
+    },
+    {
+      "icon": "🍤",
+      "label_en": "Tonkatsu & yoshoku",
+      "blurb_en": "Japan's 'we tried Western food and improved it' era, frozen in time"
+    },
+    {
+      "icon": "🐟",
+      "label_en": "Anko nabe (winter)",
+      "blurb_en": "Monkfish hotpot. Yes, the liver. Trust us."
+    },
+    {
+      "icon": "☕",
+      "label_en": "Kissaten coffee",
+      "blurb_en": "Cafes stuck in 1965, on purpose"
+    }
+  ],
+  "cards": [
+    {
+      "id": "kanda-station-drinking",
+      "section": "culture",
+      "icon": "🚃",
+      "title_en": "Three of Tokyo's busiest train lines smash together here. Tourists sprint right past. Rookies.",
+      "free_intro_en": "Kanda Station is a transfer monster — JR Yamanote, Keihin-Tohoku, AND Chuo lines — and almost no visitor ever gets off. Big mistake.",
+      "paid_reveal_en": "Kanda is one stop from the shiny Tokyo Station towers — so it's where salarymen flee to drink for half the price. Picture a thousand businessmen, ties loosened, getting gloriously hammered under the railway arches every night. The world's best-dressed happy hour. No selfie sticks, just sake. Go stand under those arches at 7pm — you'll get it instantly.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+        "https://www.japanistry.com/kanda-jimbocho"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-it-shrine",
+      "section": "culture",
+      "icon": "⛩️",
+      "title_en": "A 1,300-year-old shrine here will bless your laptop. No, seriously.",
+      "free_intro_en": "Wedged between old Kanda and otaku-mecca Akihabara sits a shrine founded in the year 730 — and it's somehow the most online shrine in Japan.",
+      "paid_reveal_en": "Kanda Myojin sells good-luck charms shaped like computer chips (¥1,000) and prayer plaques drawn like manga characters. IT workers genuinely come to pray their code doesn't crash on Friday. Go buy the chip charm — it's the most gloriously nerdy souvenir in Tokyo, and a 1,300-year-old god is personally on QA duty.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.kanpai-japan.com/tokyo/kanda-myojin",
+        "https://www.gotokyo.org/en/spot/17/index.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-matsuri",
+      "section": "culture",
+      "icon": "🎏",
+      "title_en": "Once every two years, Tokyo's most boring office district goes completely feral.",
+      "free_intro_en": "The same salarymen quietly dying in meetings have one weekend where every rule gets thrown out.",
+      "paid_reveal_en": "Kanda Matsuri — running since the 1600s, one of Tokyo's three great festivals — erupts every odd-numbered May. The buttoned-up suits you saw commuting are suddenly sweat-soaked, screaming, and hauling a one-ton portable shrine through the streets. If you're in Tokyo that week, drop everything — this is the city with its mask off.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.kanpai-japan.com/tokyo/kanda-myojin"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-curry-books",
+      "section": "eat",
+      "icon": "🍛",
+      "title_en": "People here eat curry with ONE hand on purpose. There's a reason. It's a great reason.",
+      "free_intro_en": "The locals mastered the one-handed curry, and it's not laziness — it's strategy.",
+      "paid_reveal_en": "Next door is Jimbocho: 160+ used bookstores crammed together — the biggest book town on Earth. Broke students figured out they could read and eat if one hand stayed free for the spoon. A whole food culture born from 'too cheap to stop reading' energy — there's even an annual Curry Grand Prix. Follow your nose and the suspiciously long line. Skip the photogenic empty place — the gold is the cramped one with a queue of regulars.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+        "https://visit-chiyoda.com/kanda-jimbocho-best-eats-cafe-restaurants/",
+        "https://www.foodinjapan.org/kanto-food-guide/tokyo-food-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-soba-ojisan",
+      "section": "eat",
+      "icon": "🍜",
+      "title_en": "Want the best lunch in Kanda? Ignore Google. Find the oldest man in a suit and copy him.",
+      "free_intro_en": "Kanda has a foolproof lunch hack, and it has nothing to do with reviews.",
+      "paid_reveal_en": "This place runs on soba shops older than some countries (140+ years, casually). The cheat code: if a cramped counter is full of silent ojisan in suits slurping at high speed, sit down immediately. They've eaten here every day for 30 years and do not make mistakes. The shop with the big English menu out front? Amateur trap. Slurp loud — it's a compliment, not rudeness.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://trulytokyo.com/jimbocho/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-yoshoku",
+      "section": "eat",
+      "icon": "🍤",
+      "title_en": "Japan tried Western food, then quietly made it better.",
+      "free_intro_en": "Kanda is ground zero for 'yoshoku' — and one bite explains a whole era of Japanese history.",
+      "paid_reveal_en": "In the Meiji era Japan met Western cooking and remixed it into something lighter and rice-friendly: crispy tonkatsu, omurice, hashed beef. The old diners here have perfected it for a century — a deep-fried pork cutlet on rice that's somehow a religious experience. Huge portions, tiny prices, zero pretension. Order the cutlet, dunk it in the tangy sauce, and understand why office Tokyo runs on this.",
+      "layer": "guidebook",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://visit-chiyoda.com/kanda-jimbocho-best-eats-cafe-restaurants/",
+        "https://www.foodinjapan.org/kanto-food-guide/tokyo-food-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-anko-nabe",
+      "section": "eat",
+      "icon": "🐟",
+      "title_en": "Tokyo's only monkfish restaurant has been here since 1830 — and you eat the liver.",
+      "free_intro_en": "One winter dish defines old Kanda, and it involves a famously ugly fish and a surprisingly fancy reward.",
+      "paid_reveal_en": "Near here, going since 1830, is said to be the only restaurant in Tokyo specializing entirely in monkfish (anko). The hotpot uses every part — skin, meat, and the prized liver, 'the foie gras of the sea.' When the pot's done, rice and egg go into the leftover broth for a final congee that ruins all other soups for you. Winter only. People plan whole trips around it — be one of them.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.foodinjapan.org/kanto-food-guide/tokyo-food-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-kissaten",
+      "section": "eat",
+      "icon": "☕",
+      "title_en": "The cafes here are stuck in 1965, and that's the entire point.",
+      "free_intro_en": "Jimbocho is one of Tokyo's best neighborhoods for kissaten — cafes that haven't changed the menu, the chairs, or possibly the lighting since the Showa era.",
+      "paid_reveal_en": "Dark wood, velvet seats, a master hand-dripping coffee one cup at a time, thick buttered toast with a soft egg. This is where students cram, writers brood, and salarymen 'extend their lunch break' (read: hide from their boss). Order the coffee + toast set and pretend it's 1965 — you'll genuinely want to move in.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.foodinjapan.org/kanto-food-guide/tokyo-food-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-lunch-battleground",
+      "section": "off_guidebook",
+      "icon": "🥢",
+      "title_en": "Kanda isn't a lunch spot. It's a lunch BATTLEGROUND.",
+      "free_intro_en": "Locals don't call Kanda a 'good lunch area.' They call it a gekisenku — a fierce battle zone. Cheap-and-delicious isn't a perk here; it's the bare minimum to survive.",
+      "paid_reveal_en": "Hundreds of tiny shops fight over the same army of hungry salarymen every weekday at noon, so quality is savage and prices are insane. Pro move: a line out the door looks scary, but salaryman turnover is lightning fast — you'll usually be seated in ~20 minutes. The longer the suit-line, the better the food. Tourists see the queue and leave. Locals see the queue and celebrate. Go at 12:15 and join the war.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://san-tatsu.jp/collects/2894/",
+        "https://rtrp.jp/articles/125394/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kanda-gadoshita",
+      "section": "off_guidebook",
+      "icon": "🚇",
+      "title_en": "The best food in Kanda is hiding UNDER the train tracks.",
+      "free_intro_en": "Forget the main street. In Kanda the real action is in the dark, rumbling space underneath the elevated railway — the gado-shita (under-the-tracks).",
+      "paid_reveal_en": "Crammed into the brick arches are tiny grill joints, proper regional Chinese spots, and yakiniku counters — some open 20+ years, barely big enough for ten people, and always full. A train roars overhead every few minutes, the air is charcoal and cold beer, and the regular next to you will absolutely try to share his food. This is the Tokyo you actually came for — and it's in zero guidebook top-10 lists.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://aumo.jp/areas/223/scenes/40",
+        "https://retty.me/theme/100073422/"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

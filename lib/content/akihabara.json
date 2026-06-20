@@ -1,0 +1,205 @@
+{
+  "id": "akihabara",
+  "name_en": "Akihabara",
+  "name_ja": "秋葉原",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Akihabara — where Japan rebuilt itself out of radio parts and accidentally invented a religion for nerds. Eight floors of glorious obsession, neon to the ceiling, and zero shame anywhere. You came for the anime. You'll stay for the basement full of strangers soldering circuit boards."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍛",
+      "label_en": "Akiba curry",
+      "blurb_en": "Spice-nerd heaven — the city's curry champions live here"
+    },
+    {
+      "icon": "🍜",
+      "label_en": "Jiro-style ramen",
+      "blurb_en": "A heaping mountain of noodles, fat, and garlic. Bring stamina."
+    },
+    {
+      "icon": "🥩",
+      "label_en": "Beef katsu-sando",
+      "blurb_en": "The katsu-sando dynasty in a building older than your grandparents"
+    },
+    {
+      "icon": "🐖",
+      "label_en": "Tonkatsu",
+      "blurb_en": "Old-school cutlet counters frying since the Showa era"
+    },
+    {
+      "icon": "🥟",
+      "label_en": "Standing-bar gyoza & cheap eats",
+      "blurb_en": "Fuel between floors — fast, hot, ¥-friendly"
+    }
+  ],
+  "cards": [
+    {
+      "id": "akihabara-radio-rubble",
+      "section": "culture",
+      "icon": "📻",
+      "title_en": "The world capital of anime started as a black market selling radio parts out of the rubble.",
+      "free_intro_en": "After WWII, Akihabara wasn't cute. It was a chaotic market where engineers and ex-soldiers sold electronics scavenged from the wreckage — and it earned the nickname 'Electric Town' from radios alone.",
+      "paid_reveal_en": "Here's the wild part: that scrappy radio market never died — it's still physically here, tucked under the JR tracks. Walk into Radio Center and you step into 1955: dozens of stalls the size of phone booths, ceiling-high with vacuum tubes, switches, and mystery components, run by ojisan who've sold resistors since before the moon landing. The whole otaku empire grew out of THIS room. Go stand in it — you're standing at the literal big bang of nerd Tokyo, and it smells like solder and 80 years of obsession.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Akihabara",
+        "https://ja.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E3%83%A9%E3%82%B8%E3%82%AA%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-vertical-shopping",
+      "section": "culture",
+      "icon": "🏢",
+      "title_en": "In Akihabara, shops don't go sideways. They go UP. Floor 8 is where it gets weird.",
+      "free_intro_en": "Forget strolling shopfronts. Akihabara shopping is vertical — towers like Radio Kaikan stack ten floors of figures, models, cards, and gear on top of each other.",
+      "paid_reveal_en": "The rookie move is to shop the ground floor and leave. The veteran move is to take the elevator to the TOP and walk down. The higher you climb, the deeper and stranger it gets — niche figure dealers, vintage trading cards, half-built Gundam kits, gear for hobbies you didn't know existed. Each floor is a tiny self-contained universe with its own die-hard crowd. Ride to floor 8 of any tower and work your way down — by the time you hit street level you'll have seen six subcultures you can't unsee.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html",
+        "https://www.trotop.be/en/akihabara-2/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-hokoten",
+      "section": "culture",
+      "icon": "🚶",
+      "title_en": "Every Sunday, Tokyo hands its busiest electronics street back to the cosplayers.",
+      "free_intro_en": "On Sundays and holidays, the main drag Chuo-dori shuts to all cars and becomes a 'pedestrian paradise' (hokoten) — you can walk straight down the middle of the road.",
+      "paid_reveal_en": "This is the one window where Akihabara fully drops the mask. The cars vanish, and the asphalt fills with cosplayers, idol fans, street performers, and people photographing all of it like it's perfectly normal — because here, it is. There's no stage and no ticket; the street IS the show. Time your visit for a Sunday afternoon, plant yourself in the middle of the closed road, and just watch Tokyo's most uninhibited crowd happen around you. You'll never see a city be this gleefully itself anywhere else.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html",
+        "https://matcha-jp.com/en/2575"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-gachapon",
+      "section": "culture",
+      "icon": "🥚",
+      "title_en": "There's a building here with 500 capsule machines and you WILL lose an hour to it.",
+      "free_intro_en": "Gachapon Kaikan opened in 2002 and packs around 500 capsule-toy machines floor to ceiling — a wall of plastic dome dispensers humming with little surprises.",
+      "paid_reveal_en": "Forget the keychains you're picturing. The good machines here dispense absurdly detailed mini-art: realistic miniature furniture, animals in tiny existential poses, food so accurate it's confusing, and 'adult' gachas that are basically tiny sculptures. Bring a fistful of ¥100 and ¥500 coins (machines eat coins, not cards) and surrender to the gamble — watching grown adults gasp at a 1/200 rare capsule is the single most wholesome thing in Tokyo. You came to look. You'll leave with eleven.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.gltjp.com/en/directory/item/16985/",
+        "https://matcha-jp.com/en/2575"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-curry-grandprix",
+      "section": "eat",
+      "icon": "🍛",
+      "title_en": "Akihabara is secretly one of Tokyo's great curry towns. The nerds demanded it.",
+      "free_intro_en": "An army of engineers and otaku needs fast, cheap, intense fuel — so spice shops swarmed in, and Akiba quietly became a curry battleground.",
+      "paid_reveal_en": "Right next door, neighboring Kanda runs an annual Curry Grand Prix, and the champions cluster around here. The local move is the 'aiboke' double-pour — two completely different curries on one plate (say a coconut-rich spice curry next to a deep beef-tendon dry curry) loaded with toppings, so one ¥1,000 lunch is two distinct flavor trips. Skip the chains. Find the cramped counter with a queue of solo guys eating in reverent silence and order whatever the menu calls the house special. Spice-nerds and computer-nerds turn out to want the exact same thing: maximum intensity, minimum fuss.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://media.holospace.jp/archives/10801",
+        "https://san-tatsu.jp/collects/175318/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-jiro-ramen",
+      "section": "eat",
+      "icon": "🍜",
+      "title_en": "There's a ramen here so huge it has its own grammar and a queue of believers.",
+      "free_intro_en": "Akihabara is prime territory for Jiro-style ramen — a monstrous bowl of thick noodles, pork fat, raw garlic, and a wall of bean sprouts that is less a meal than a challenge.",
+      "paid_reveal_en": "This isn't delicate Tokyo ramen. It's a cult. At the counter you'll 'call' your bowl with insider words — extra garlic, extra fat, extra veg — and the broth at the best spots has been topped-up and simmering nonstop since opening day, so every bowl carries years of accumulated flavor. The crowd is silent, focused, and absolutely demolishing portions that would frighten a normal human. Go in hungry, learn the one magic word ('mashi' = more), and earn your place among the believers. You will not need dinner. Possibly not tomorrow's either.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://media.holospace.jp/archives/10801",
+        "https://otonano-shumatsu.com/articles/229953"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-mansei-beef",
+      "section": "eat",
+      "icon": "🥩",
+      "title_en": "The big landmark building on the corner isn't an electronics store. It's a beef empire.",
+      "free_intro_en": "One of Akihabara's most recognizable buildings is a multi-floor temple to beef — a local institution where the katsu-sando (beef cutlet sandwich) became legend.",
+      "paid_reveal_en": "Here's the insider play: this place is famous for premium beef, but the LUNCH sets are a steal — hearty hamburg steaks and beef plates from around ¥1,200, often with free rice refills, in a building most tourists assume is way out of budget. Locals have lunched here for generations precisely because it's old-school, generous, and quietly affordable before the dinner prices kick in. Come at noon, order the hamburg-and-rice set, and eat like a salaryman who's been coming here since college. Landmark food without the landmark price.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://akihabara-bc.jp/akihabara-mansei/",
+        "https://akibaru.jp/gourmet/mansei-hamburg-lunch/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-tonkatsu",
+      "section": "eat",
+      "icon": "🐖",
+      "title_en": "Between the neon, there are tonkatsu counters frying the same cutlet since the Showa era.",
+      "free_intro_en": "Tucked among the anime towers are old tonkatsu specialists — some going since the 1970s — that treat a deep-fried pork cutlet like a craft.",
+      "paid_reveal_en": "These masters hand-pick from a rotation of branded pork and judge each cut on the day, so the cutlet arrives juicy inside, shatteringly crisp outside, and worth the wait. The contrast is the magic: you step off a street screaming with capsule machines and idol jingles into a hushed wooden counter where the only sound is sizzling oil and a chef who's done this 10,000 times. Grind your own sesame, mix the sauce, and eat the quietest, most perfect lunch in the loudest neighborhood in Tokyo.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://media.holospace.jp/archives/10801",
+        "https://san-tatsu.jp/collects/175318/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-junk-alley",
+      "section": "off_guidebook",
+      "icon": "🔧",
+      "title_en": "Behind the bright stores there's a back alley where they sell electronics by the GUTS.",
+      "free_intro_en": "Off the main street, behind the polished shops, runs 'Junk Street' (junk-dori) — narrow lanes where PC parts spill out of bins, raw and unboxed, like a flea market for circuit boards.",
+      "paid_reveal_en": "This is the Akihabara that locals actually use. Engineers, electronics students, and hardcore tinkerers pick through crates of cables, jacks, salvaged components, and 'junk' that's only junk to people who can't fix it. There's even a basement specialist literally branded 'Akihabara Final Disposal Site' selling pure salvage. No English menus, no anime, no tourists — just the original DIY soul of the place, still beating. Wander in even if you can't tell a capacitor from a coffee bean. You're seeing the real engine room, the part of Akiba that built everything else.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://electro-disco.com/2019/11/18/%E3%81%A7%E3%81%83%E3%81%99%E3%81%93%E3%81%AE%E7%A7%8B%E8%91%89%E5%8E%9F%E5%B7%A1%E5%9B%9E%E3%83%AB%E3%83%BC%E3%83%88/",
+        "https://weekly.ascii.jp/elem/000/001/810/1810743/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "akihabara-maid-cafe-truth",
+      "section": "off_guidebook",
+      "icon": "☕",
+      "title_en": "The maid-cafe truth nobody tells tourists: never, ever follow the girl on the street.",
+      "free_intro_en": "Maid cafes are Akihabara's signature: waitresses in frilly outfits call you 'master,' draw cute pictures in your omurice, and run silly chants over your drink. The good ones are genuinely fun and wholesome.",
+      "paid_reveal_en": "Here's the lived rule the guidebooks soften: the maids handing out flyers and tugging you off the street are the trap — Japanese fans avoid those, because that's where the surprise ¥40,000 'champagne' bills happen. The real otaku move is the opposite: pick a known cafe-type shop with posted prices BEFORE you go, ignore every street tout completely, and you'll get the charming, hilarious, surprisingly sweet version locals actually love. Do it right and it's the most joyfully ridiculous hour of your trip. Do it wrong and it's a horror story. Now you know which door to walk through.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://maidcafehowto.com/eria/akihabara/kyakuhiki/",
+        "https://nikkan-spa.jp/1962910"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

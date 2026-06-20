@@ -1,0 +1,209 @@
+{
+  "id": "shinjuku",
+  "name_en": "Shinjuku",
+  "name_ja": "新宿",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Shinjuku — the busiest train station on Earth, dumping millions of people into a 24-hour neon circus of skyscrapers, six-seat bars, and a garden so quiet you'll forget the chaos is 100 meters away. Heaven, hell, and lunch all on one map."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍢",
+      "label_en": "Yakitori & motsuyaki",
+      "blurb_en": "Charcoal skewers under the tracks — cheap, smoky, perfect with a cold one"
+    },
+    {
+      "icon": "🍜",
+      "label_en": "Ramen",
+      "blurb_en": "Shinjuku has more legendary ramen counters per block than most cities have total"
+    },
+    {
+      "icon": "🍛",
+      "label_en": "Standing-bar snacks",
+      "blurb_en": "The otoshi (forced appetizer) you didn't order but will somehow love"
+    },
+    {
+      "icon": "🐟",
+      "label_en": "Kaisen-don & seafood",
+      "blurb_en": "Rice bowls buried under glistening sashimi, day-drinking encouraged"
+    },
+    {
+      "icon": "🍶",
+      "label_en": "Tachinomi sake",
+      "blurb_en": "Stand-up bars where salarymen 'just have one' for three hours"
+    }
+  ],
+  "cards": [
+    {
+      "id": "shinjuku-busiest-station",
+      "section": "culture",
+      "icon": "🚉",
+      "title_en": "The busiest train station on Earth moves a whole city through it every single day. And it tried to break you with 200 exits.",
+      "free_intro_en": "Shinjuku Station handles around 3.5 million passengers a day — so many that Guinness officially crowned it the world's busiest. The runner-up in Paris doesn't even hit a fifth of that.",
+      "paid_reveal_en": "Here's the part that turns first-timers into crying memes: it has over 200 exits — a number so deranged that Japanese people write survival guides for it. Locals don't fight the labyrinth — they navigate by exit code, not by map. The cheat: never aim for 'Shinjuku Station,' aim for your color-coded exit (South, East, West) and follow that one sign like your life depends on it. Lock onto an exit number before you move and the monster turns into a puzzle you can actually win — and the second you surface into the neon, you'll feel like you've arrived somewhere that matters.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shinjuku_Station",
+        "https://www.guinnessworldrecords.com/world-records/busiest-station",
+        "https://www.nippon.com/en/features/h00273/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-tocho-free-view",
+      "section": "culture",
+      "icon": "🌃",
+      "title_en": "Everyone pays ¥3,000 for the famous Tokyo view. Locals ride a government elevator to a higher one for free.",
+      "free_intro_en": "Tourists queue and pay big for the trophy observation decks. Meanwhile the Tokyo Metropolitan Government Building — the city hall, of all things — has two observatories at 202 meters that cost exactly zero yen.",
+      "paid_reveal_en": "It's a working government office, so they're not advertising it — which is precisely why it stays underrated. On a clear day you get Mount Fuji, Skytree, and Tokyo Tower in one free sweep, and the move is to go at dusk: arrive in daylight, watch the entire skyscraper sea switch on into a galaxy of lights, then walk out without spending a cent. Pro tip: the North tower runs later than the South, so chase whichever is open. You'll stand 200 meters over the busiest city on the planet for the price of a smile — go watch Tokyo light up.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e3011_tocho.html",
+        "https://www.english.metro.tokyo.lg.jp/w/000-101-000542",
+        "https://tokyocheapo.com/place/tokyo-metropolitan-government-building/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-gyoen-escape",
+      "section": "culture",
+      "icon": "🌸",
+      "title_en": "The loudest district in Tokyo hides the most peaceful garden in Tokyo. The ¥500 wall between them is the best deal in the city.",
+      "free_intro_en": "Two minutes from the neon screaming match of Shinjuku, Shinjuku Gyoen unfolds into 58 hectares of Japanese, French, and English gardens. Entry is just ¥500.",
+      "paid_reveal_en": "The genius is the contrast: you go from selfie-stick gridlock to absolute silence in the time it takes to scan a ticket. There's a free greenhouse inside packed with 2,700+ species of orchids and cacti, and during cherry-blossom season this becomes the single best hanami spot in central Tokyo — partly because the ¥500 fee filters out the chaos that ruins the free parks. Come at opening, grab a lawn under the sakura, and let the busiest city on Earth disappear behind a hedge. It's the most you'll ever pay to be left gloriously alone.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.env.go.jp/garden/shinjukugyoen/english/2_guide/guide.html",
+        "https://www.gotokyo.org/en/spot/75/index.html",
+        "https://www.japan-guide.com/e/e3034_001.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-nichome",
+      "section": "culture",
+      "icon": "🌈",
+      "title_en": "Five tiny blocks here hold over 400 bars — making it the densest gay district on the planet.",
+      "free_intro_en": "Shinjuku Ni-chome is just five city blocks, yet it's the largest LGBTQ+ district in Asia and the densest worldwide, with 400+ small bars crammed into walking distance.",
+      "paid_reveal_en": "The magic is the scale of the bars, not the scale of the area — most seat under ten people, so a night here is bar-hopping every twenty minutes, each room a totally different world (mixed, women-only, karaoke, drag, English-friendly). It's welcoming to everyone curious and respectful, and the unwritten rule is simple: it's tiny, so be a good guest, not a tour group gawking. Pick a bar with a posted menu and an open door, squeeze in, and you'll end the night with new friends in a city of millions — that's the Tokyo nobody puts on a postcard.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shinjuku_Ni-ch%C5%8Dme",
+        "https://voyapon.com/ni-chome-shinjuku-tokyo-lgbtq/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-omoide-yakitori",
+      "section": "eat",
+      "icon": "🍢",
+      "title_en": "There's a 70-year-old alley called 'Memory Lane' where you eat charcoal skewers in a space the size of a closet. It used to be called Piss Alley.",
+      "free_intro_en": "Omoide Yokocho — 'Memory Lane,' nicknamed Piss Alley — is a tangle of ~80 tiny shops by the station's west exit, born from a postwar black market and still soaked in Showa-era smoke.",
+      "paid_reveal_en": "Sixty-odd of those shops are yakitori and motsuyaki (grilled offal) counters, and this is where you learn that the 'ugly' cuts are the best ones. The local move is liver — at the cult motsuyaki spots it comes crisp outside, soft and rare inside, the kind of thing that rewires your idea of grilled food, and old-school skewers run as little as ¥130 a stick. Skip the shop with the giant photo menu and English banner; duck into the cramped one where smoke is pouring out and a salaryman is wedged elbow-to-elbow. Sit at the counter, point at what your neighbor's eating, and let a master who's grilled the same skewer for 50 years feed you.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://yokoso-shinjuku.com/area-tourism/west-sightseeing/omoide-yokocho/",
+        "https://tokyolucci.jp/shinjuku-omoideyokocho",
+        "https://rtrp.jp/articles/26953/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-hirudoki-day-drinking",
+      "section": "eat",
+      "icon": "🍶",
+      "title_en": "In Shinjuku, drinking at noon isn't a problem. It's a recognized food group.",
+      "free_intro_en": "Many of the tiny shops in Omoide Yokocho and Shinjuku's alleys open for hirunomi — daytime drinking — long before dinner.",
+      "paid_reveal_en": "The lived secret: noon is the move, not night. The same legendary counters that have an hour-long wait at 7pm are wide open at 1pm, the regulars are mellower, the master has time to talk, and a beer-plus-skewers lunch costs about what a coffee does back home. Grab a standing-bar (tachinomi) slot, order whatever's chalked on the board, and watch off-duty Tokyo unwind in daylight. It's the most relaxed, most local way to eat in Shinjuku — and you'll wonder why you ever waited in line at night.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://haraheri.net/article/571/omoide_yokocho",
+        "https://tokyolucci.jp/shinjuku-omoideyokocho"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-ramen",
+      "section": "eat",
+      "icon": "🍜",
+      "title_en": "Shinjuku has so many world-class ramen shops that the locals' problem is choosing, not finding.",
+      "free_intro_en": "Few districts on Earth pack as many famous ramen counters into walking distance as Shinjuku does — the area is a genuine pilgrimage stop for noodle obsessives.",
+      "paid_reveal_en": "The insider read: a queue of solo salarymen is the only restaurant critic worth trusting here — they get 45 lunch minutes and waste zero of them on mediocre soup. Buy your ticket from the vending machine by the door first, and use the local lore: the TOP-LEFT button is traditionally the shop's signature bowl, so when you can't read a thing, push it with confidence. Slurp loud (silence is the only rude thing here) and order the house special, never the safe one. One properly built Tokyo shoyu or tsukemen and you'll understand why people fly across the world for soup.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.travelerchoice.com/blogs/all-blogs/things-to-do-in-shinjuku",
+        "https://article.bespes-jt.com/en/article/shinjuku/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-golden-gai-charge",
+      "section": "off_guidebook",
+      "icon": "🍸",
+      "title_en": "Six narrow alleys, 200+ bars the size of a phone booth — and a 'sit-down fee' that ambushes everyone who didn't know the rule.",
+      "free_intro_en": "Golden Gai is a labyrinth of six tiny lanes packed with 200+ bars, many seating only a handful of people — a postwar relic that became a haunt for writers, artists, and night owls.",
+      "paid_reveal_en": "Here's the gotcha tourists rage about online: most bars charge a ¥500–¥1,500 seat fee (otoshi) on top of drinks — it's not a scam, it's how a six-stool bar pays Shinjuku rent, and it comes with a little snack. The move is to read the door: signs saying 'tourists welcome,' 'walk-ins OK,' or an English menu posted outside mean come in; 'members only' or 'regulars only' means it's someone's living room, so let it be. Pick a welcoming one, pay the cover happily, and you'll spend the night two inches from a stranger swapping stories in a bar older than your country. There is nothing like it anywhere on Earth.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://tokyocheapo.com/food-and-drink/quick-guide-golden-gai/",
+        "https://www.magical-trip.com/media/golden-gai-a-complete-guide-to-shinjukus-hidden-bar-paradise-for-foreign-visitors/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-kabukicho-bottakuri",
+      "section": "off_guidebook",
+      "icon": "🌃",
+      "title_en": "Asia's biggest nightlife district has a literal recorded voice warning you about rip-off bars at the entrance. Locals taught us how to walk straight past them.",
+      "free_intro_en": "Kabukicho is Asia's largest entertainment district — the city that genuinely never sleeps. It's cleaned up a lot, but at the entrance an announcement still loops, warning visitors about bottakuri (rip-off) bars.",
+      "paid_reveal_en": "Local rule number one, straight from Japanese street-savvy blogs: never, ever follow a tout. The guys on the street pulling you toward an 'amazing cheap bar' are exactly the trap the announcement warns about — real Shinjuku bars don't need to drag people off the sidewalk. Ignore every catch, walk under the giant red gate, and treat Kabukicho as the world's most cinematic place to just wander and people-watch: the neon, the ramen at 3am, the Godzilla head roaring over the rooftops. Keep your wits, follow your own nose into a place with prices on the menu, and you get the most electric night in Tokyo with zero regret.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://yokoso-shinjuku.com/shinjuku-column/kabukicho/",
+        "https://san-tatsu.jp/towns/179243/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shinjuku-golden-gai-vs-omoide",
+      "section": "off_guidebook",
+      "icon": "🥢",
+      "title_en": "Golden Gai is for drinking. Memory Lane is for eating. Tourists mix them up and miss half the night.",
+      "free_intro_en": "Two famous alleys, two minutes apart, constantly confused: Golden Gai and Omoide Yokocho. Locals treat them as completely different tools.",
+      "paid_reveal_en": "The lived playbook: eat in Omoide Yokocho first — that's where the charcoal skewers, the cheap beer, and the actual food live — then walk to Golden Gai for the deep, slow, six-seat conversation drinking. Doing it backwards (drinking on an empty stomach, then hunting food in Golden Gai where it's mostly liquor) is the rookie mistake that ends nights early. Chain them in the right order — smoke and skewers, then whisky and strangers — and you've just run the perfect Shinjuku night that no single guidebook page will ever tell you to do.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://bimi.jorudan.co.jp/topics/31936.html",
+        "https://mashup-kabukicho.com/article/12243"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

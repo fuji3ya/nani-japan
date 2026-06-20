@@ -1,0 +1,225 @@
+{
+  "id": "kyoto",
+  "name_en": "Kyoto",
+  "name_ja": "京都",
+  "prefecture": "kyoto",
+  "tier": "prefecture",
+  "header": {
+    "tagline_en": "Kyoto — Japan's capital for 1,000 years, and it has never once let you forget it. Every alley is a postcard, every grandma is secretly judging your manners, and the whole city is more polite — and more savage — than anywhere on Earth. You came for temples. You'll leave plotting your return."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍵",
+      "label_en": "Matcha",
+      "blurb_en": "Not a flavor here — a religion. Kyoto basically invented the matcha parfait."
+    },
+    {
+      "icon": "🥢",
+      "label_en": "Obanzai",
+      "blurb_en": "Kyoto home cooking — humble seasonal small plates that out-class fancy restaurants"
+    },
+    {
+      "icon": "🍲",
+      "label_en": "Yudofu",
+      "blurb_en": "Hot tofu so simple it sounds boring. Then you taste it near a temple in winter."
+    },
+    {
+      "icon": "🎀",
+      "label_en": "Kaiseki",
+      "blurb_en": "Multi-course art on a plate — the seasons, edible, in slow motion"
+    },
+    {
+      "icon": "🐙",
+      "label_en": "Nishiki Market eats",
+      "blurb_en": "'Kyoto's Kitchen' — 400 years of pickles, skewers, tako-tamago, soy-milk donuts"
+    }
+  ],
+  "cards": [
+    {
+      "id": "kyoto-1000-year-capital",
+      "section": "culture",
+      "icon": "🏯",
+      "title_en": "This city was Japan's capital for over 1,000 years. It is fully aware of this. So are you, now.",
+      "free_intro_en": "Kyoto was the imperial capital from 794 until 1868 — more than a millennium of being THE place. Then Tokyo took the crown, and Kyoto has been quietly unbothered ever since.",
+      "paid_reveal_en": "Here's what a thousand years of capital does to a city: it stops competing and starts simply existing at a level no one can touch. Over 1,600 Buddhist temples, 400 Shinto shrines, and 17 UNESCO World Heritage sites, all crammed into a place you can cross by bike. The trick locals know: Kyoto isn't one big sight, it's a thousand tiny ones — duck down a random side-lane in Higashiyama and you'll find a 600-year-old garden with no one in it. Get lost on purpose. The unplanned alley is the whole point.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e2158.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-fushimi-inari-dawn",
+      "section": "culture",
+      "icon": "⛩️",
+      "title_en": "There are ~10,000 vermilion gates on this mountain. By 9am you'll be photographing strangers' backpacks instead.",
+      "free_intro_en": "Fushimi Inari Shrine's endless tunnels of vermilion torii gates climbing Mount Inari are THE photo of Japan. Thousands of them, each one donated by a business praying for prosperity since the 8th century.",
+      "paid_reveal_en": "Here's the part the guidebooks bury: the shrine grounds never close. No gate, no ticket, no opening hours — the mountain is open 24/7. So while every tour bus dumps its crowd at 9am, the move is to arrive at dawn (think 6–7am) when the gates are empty, mist still hangs in the trees, and shafts of morning sun cut red through the tunnels. You get the most famous image in Japan entirely to yourself, plus the higher you climb the more the crowds thin to zero. Wake up stupidly early once — it's the single best hour you'll spend in Japan.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e2158.html",
+        "https://www.leafkyoto.net/en/250228-kyoto-asakanko/",
+        "https://ja.kyoto.travel/comfort/fushimi/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-golden-pavilion",
+      "section": "culture",
+      "icon": "🏅",
+      "title_en": "A temple covered in actual gold leaf. It floats on a pond. It is showing off and it has earned it.",
+      "free_intro_en": "Kinkaku-ji, the Golden Pavilion, has its top two floors wrapped in real gold leaf, mirrored perfectly in the pond it sits beside. It is exactly as ridiculous and beautiful as it sounds.",
+      "paid_reveal_en": "Fun gut-punch: the building you're admiring is a 1955 reconstruction — a young monk burned the original down in 1950 (Yukio Mishima wrote a whole famous novel about it). The rebuild went HARDER with the gold. The pro move is reading the pond, not the building: come on a still, clear morning and the reflection doubles the gold into a perfect mirror-world, which is the shot that actually breaks people's brains. Skip the crowded midday selfie scrum, go right at opening, and stand at the far side of the pond.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e2158.html",
+        "https://www.earthtrekkers.com/best-things-to-do-in-kyoto-japan/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-arashiyama-bamboo",
+      "section": "culture",
+      "icon": "🎋",
+      "title_en": "A forest of bamboo so tall it turns the sunlight green. Show up at 10am and it turns into a queue.",
+      "free_intro_en": "The Arashiyama Bamboo Grove is a path through towering stalks that sway and creak overhead, filtering daylight into something dreamlike and green. It is on every Japan poster for a reason.",
+      "paid_reveal_en": "The brutal truth: by mid-morning it's a slow-shuffling river of tour flags and raised phone arms and you can't get a clean photo to save your life. The grove is tiny — a few minutes' walk — so timing is everything. Locals' answer: be standing in it by 7am, before the tour buses and before the souvenir streets even open. Empty, silent except for the wind in the canes, the whole point of the place finally working. Bonus: the back-streets of Arashiyama beyond the grove (riverside temples, a monkey park up the hill) stay quiet all day — the crowd never leaves the one famous path.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e2158.html",
+        "https://www.leafkyoto.net/en/250228-kyoto-asakanko/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-gion-geisha-ban",
+      "section": "culture",
+      "icon": "🏮",
+      "title_en": "Yes, real geisha still walk these streets. No, you may not chase them down a private alley — that's a ¥10,000 fine now.",
+      "free_intro_en": "Gion is Kyoto's historic geisha district: wooden teahouses, paper lanterns, and the rare evening glimpse of a geiko or maiko (apprentice) hurrying to an appointment in full kimono. It looks like a movie because, well, it sort of is one.",
+      "paid_reveal_en": "Here's the lived reality the brochures skip: tourists got so out of hand — grabbing maiko, blocking them, barging into private homes — that as of 2024 Gion's narrow private alleys are officially off-limits, with signs warning of a ¥10,000 fine for entering. The residents are exhausted; one famous sign basically reads 'this is not a theme park.' The respectful (and far better) play: stay on the public main street Hanami-koji at dusk, keep your camera down around any maiko, and the real magic is just walking Gion's stone lanes after dark when the lanterns glow and the daytime crowd is gone. Behave, and the most atmospheric street in Japan is all yours.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.ktv.jp/news/feature/240529-maiko/",
+        "https://www.tv-osaka.co.jp/news/52879/",
+        "https://news.yahoo.co.jp/articles/1c8a0912e0699c89ad873cc9aaf91fe57ec1aa3c"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-nishiki-market",
+      "section": "eat",
+      "icon": "🐙",
+      "title_en": "A 400-year-old food street called 'Kyoto's Kitchen.' Bring an empty stomach and zero plans.",
+      "free_intro_en": "Nishiki Market is a narrow covered arcade running five blocks, packed with 100+ shops slinging pickles, fresh seafood, skewers, matcha sweets and oddities you've never seen. It's been feeding Kyoto for around four centuries.",
+      "paid_reveal_en": "The single most Kyoto bite here is tako-tamago: a tiny whole baby octopus candied on a stick, with a quail egg tucked inside its head. Sweet, weird, unforgettable, and the photo your friends won't believe. Real-talk pro tips locals follow: there's an unwritten 'eat where you buy, don't walk-and-graze' etiquette (Kyoto cares deeply about manners), and the move is to come hungry but EARLY — by midday it's shoulder-to-shoulder. Graze your way through: soy-milk donuts, fresh yuba (tofu skin), grilled wagyu skewers, dashi-soaked everything. It's a buffet with no entry fee where every stall is a 100-year-old specialist.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e2158.html",
+        "https://kyoto.tips/nishikiitiba-morning"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-obanzai",
+      "section": "eat",
+      "icon": "🥢",
+      "title_en": "The most quietly impressive food in Kyoto is just... grandma's leftovers, perfected for centuries.",
+      "free_intro_en": "Obanzai is traditional Kyoto home cooking — small seasonal dishes of simmered vegetables, tofu, fish and pickles. It sounds humble. It is humble. It will also quietly ruin you for 'fancy' food.",
+      "paid_reveal_en": "Obanzai is the soul of Kyoto on a plate, built on a philosophy of waste-nothing, use-what's-in-season, and let the dashi (kelp-and-bonito broth) do the talking. The lived move: skip the polished tourist restaurants and find a tiny obanzai counter where a set lunch lands you 8–12 little dishes for a shockingly fair price — usually around a glowing fridge-display of that day's home-style plates you point at. It's the dinner a Kyoto family would actually eat, and after one meal you understand why Kyoto people are smug about their cooking. They're right to be.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.hotpepper.jp/strJ000108772/",
+        "https://k127209.gorp.jp/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-yudofu-kaiseki",
+      "section": "eat",
+      "icon": "🍲",
+      "title_en": "They serve plain hot tofu as a luxury dish. You will roll your eyes. Then you'll get it.",
+      "free_intro_en": "Yudofu is just blocks of soft tofu gently warmed in kelp broth, eaten with a little dipping sauce. Kyoto turned this almost-nothing dish into a celebrated specialty — often eaten near the great temples.",
+      "paid_reveal_en": "Why does the city obsessed with refinement worship boiled tofu? Because Kyoto's soft water and centuries of temple (Buddhist vegetarian, shojin-ryori) cooking made its tofu genuinely the best in Japan — silky, faintly sweet, alive in a way supermarket tofu isn't. The dream version is yudofu eaten in winter at a garden restaurant beside a temple, steam rising while you look at moss and maples. It's the same logic that gave Kyoto kaiseki — the multi-course seasonal feast that's basically edible poetry. Order yudofu when it's cold out, by a temple, and let the simplest food in Japan blindside you.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://tabelog.com/matome/25391/",
+        "https://www.nta.co.jp/media/tripa/articles/KQClS"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-matcha",
+      "section": "eat",
+      "icon": "🍵",
+      "title_en": "Kyoto didn't discover matcha. It basically invented the matcha parfait you're already craving.",
+      "free_intro_en": "Matcha — stone-ground green tea whisked into a vivid froth — is woven into Kyoto's entire history, from imperial courts to samurai tea ceremony to today's green-tea-everything dessert craze.",
+      "paid_reveal_en": "Real context that makes it taste better: the world's most prized matcha comes from Uji, just south of Kyoto, where they've grown tea since the 1100s. That's why Kyoto matcha hits different from the powdery stuff back home — it's grassy, deep, almost savory, not bitter. The lived flex: the Kyoto matcha PARFAIT (towers of matcha ice cream, jelly, mochi, sweet beans, sponge) was reportedly born in a Kyoto teahouse back in 1969 and the city has been perfecting it since. Do both — a quiet bowl of ceremonial matcha in a garden tearoom for the history, and a ludicrous parfait for the joy. You'll be ranking matcha for the rest of your life after this.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://goencha.com/blog/discover-history-kyotos-matcha-experience-tea-culture/",
+        "https://www.leafkyoto.net/en/230330-kyoto-machasweets/",
+        "https://nihonchaseikatsu.com/kyototeacafe/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-bus-crush",
+      "section": "off_guidebook",
+      "icon": "🚌",
+      "title_en": "Kyoto's buses are so jammed with tourists that Kyoto residents literally can't board their own bus.",
+      "free_intro_en": "The classic plan is 'take the city bus everywhere.' Locals will gently beg you not to. The famous sightseeing buses are so overloaded that residents have been left standing at stops, unable to get on, for years now.",
+      "paid_reveal_en": "This is real, ongoing news, not a vibe: Kyoto's transit authority has rolled out special measures because tourists with rolling suitcases jam the buses solid and locals can't ride. The insider workaround the city itself is pushing: use the TRAIN and subway instead. Arashiyama? Take the Randen tram, not the bus. Going across town? The two subway lines glide right under the gridlock while the 206 bus crawls. And the secret weapon almost no tourist uses: rent a bike — Kyoto is flat, grid-shaped, and gorgeous, and you'll beat every bus while stumbling onto tiny shrines and back-lane cafés no tour ever sees. Ditch the bus and you suddenly have the whole city, on your own clock.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://news.yahoo.co.jp/articles/2a25cadb22670f2d85dd723442ad783e1452b486",
+        "https://www.city.kyoto.lg.jp/kotsu/page/0000346713.html",
+        "https://kyotokankoyagi.com/koyo2017-bus"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "kyoto-bubuzuke-etiquette",
+      "section": "off_guidebook",
+      "icon": "🍚",
+      "title_en": "If a Kyoto host offers you tea-and-rice... legend says they're politely telling you to leave. (Mostly legend. Mostly.)",
+      "free_intro_en": "Kyoto people are famous across Japan for being the most exquisitely polite — which other Japanese people read as the most exquisitely savage. The legendary example: 'would you like some bubuzuke (tea over rice)?' is said to secretly mean 'it's getting late, please go home.'",
+      "paid_reveal_en": "The honest, funnier truth: a major newspaper survey found that of 1,000 Kyoto natives, almost none had ever actually been offered the 'please leave' bubuzuke — it's mostly a myth Japan tells about Kyoto. But it points at something gloriously real: 'ikezu,' the Kyoto art of saying something pointed without ever sounding rude. 'Your child plays piano so beautifully' can mean 'your kid is loud.' It's not meanness — it's a thousand-year-old skill for keeping the peace without raising your voice. As a traveler you'll mostly just feel the unreal politeness. But knowing the velvet dagger is under it makes every 'how lovely' you hear in Kyoto twice as fun. Listen closely — this city talks in layers, and decoding it is half the trip.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.nikkei.com/article/DGXZQOUF268CV0W5A520C2000000/",
+        "https://www.kyoto-np.co.jp/articles/-/1210293",
+        "https://jocr.jp/raditopi/2022/05/11/426428/"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "asakusa",
+  "name_en": "Asakusa",
+  "name_ja": "浅草",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Asakusa — Tokyo in a kimono, eating a snack, slightly drunk before noon. The most touristy spot in the city, and somehow still the most fun. Old Tokyo never left; it just learned to pose for photos."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍈",
+      "label_en": "Jumbo melon pan",
+      "blurb_en": "Crackly outside, cloud inside — proofed 3x longer than normal bread. The line tells you it's worth it."
+    },
+    {
+      "icon": "🍤",
+      "label_en": "Tendon",
+      "blurb_en": "Old-Tokyo tempura over rice, drowned in dark sweet sauce. Edo comfort food, perfected."
+    },
+    {
+      "icon": "🐟",
+      "label_en": "Dojo nabe",
+      "blurb_en": "Tiny whole loach in a sweet-soy hotpot. Sounds wild, eaten here for 200+ years."
+    },
+    {
+      "icon": "🍡",
+      "label_en": "Ningyo-yaki & kibi-dango",
+      "blurb_en": "Lantern-shaped cakes & mini skewered dumplings — Edo street snacks, made in front of you."
+    },
+    {
+      "icon": "🍵",
+      "label_en": "Agemanju & matcha sweets",
+      "blurb_en": "Deep-fried bean buns served scalding; matcha everything. Eat it walking."
+    }
+  ],
+  "cards": [
+    {
+      "id": "asakusa-kaminarimon-lantern",
+      "section": "culture",
+      "icon": "🏮",
+      "title_en": "That giant red lantern everyone photographs? Look UNDERNEATH it. There's a secret carved into the bottom.",
+      "free_intro_en": "Kaminarimon — the 'Thunder Gate' — holds a 3.9-meter, 700kg red paper lantern that's basically Tokyo's most-photographed object. Founded in 942… but the gate has a plot twist nobody reads.",
+      "paid_reveal_en": "Everyone snaps the front and walks through. Rookies. First: tilt your head and look at the BOTTOM of the lantern — there's a dragon carved in wood under all that paper that 99% of the crowd never sees. Second, the twist: the 'ancient' gate burned down in 1865 and Tokyo just… left it gate-less for 95 years. The one you're standing under was rebuilt in 1960, paid for by the founder of Panasonic as an act of gratitude — and Panasonic still funds Kyoto craftsmen to remake the giant lantern roughly every decade. Ancient Japan, quietly brought to you by the company that made your TV. Find the dragon, spot the donor plaque, and enjoy knowing two secrets the whole crowd is standing under.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/spot/14/index.html",
+        "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+        "https://en.wikipedia.org/wiki/Kaminarimon"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-sensoji-6am",
+      "section": "culture",
+      "icon": "⛩️",
+      "title_en": "The most crowded temple in Tokyo is completely empty at 6am — and almost nobody knows it opens that early.",
+      "free_intro_en": "Senso-ji is Tokyo's oldest temple (founded 645) and gets swallowed by crowds by mid-morning. By 11am, Nakamise is a slow-moving river of people.",
+      "paid_reveal_en": "Here's the cheat code locals use: the main hall opens at 6:00am (6:30 in winter). Show up then and you get the entire 1,400-year-old temple, the five-story pagoda, and an empty Nakamise street where the only footsteps echoing are yours, in soft morning light, with monks chanting the morning service and pigeons as your only crowd. The same photo that's impossible at noon takes two seconds at dawn. Set one early alarm on your trip. This is the one.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e3001.html",
+        "https://www.senso-ji.jp/info/lightup.html",
+        "https://matcha-jp.com/en/3759"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-night-shutter-scroll",
+      "section": "culture",
+      "icon": "🌙",
+      "title_en": "At night, all 90 shops slam their shutters — and turn the whole street into a single painted scroll.",
+      "free_intro_en": "Nakamise's 250-meter avenue from Kaminarimon to the temple has ~90 stalls. Come evening, every shop rolls down its metal shutter and the snack stalls go dark.",
+      "paid_reveal_en": "Day-trippers think the show's over and leave. It's actually just starting. The closed shutters are painted, panel by panel, into one continuous mural called the 'Asakusa Emaki' — a hand-drawn scroll of old Edo life you can ONLY see when every shop is shut. Meanwhile the temple, pagoda, and gate stay lit until 11pm, glowing over an almost-empty street where the only other people are a few tipsy salarymen and locals walking their dogs. The daytime Asakusa is for tourists. The 9pm one is yours.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.senso-ji.jp/info/lightup.html",
+        "https://guidememo.jp/sensoji-asakusa-night/",
+        "https://www.gotokyo.org/en/spot/73/index.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-hanayashiki",
+      "section": "culture",
+      "icon": "🎢",
+      "title_en": "Japan's oldest amusement park is hiding two minutes from the temple — with a roller coaster from 1953 that locals are weirdly proud of.",
+      "free_intro_en": "Hanayashiki opened in 1853 as a flower garden and became Japan's oldest amusement park. It's tucked right behind Senso-ji, easy to miss entirely.",
+      "paid_reveal_en": "Its 'Roller Coaster' (yes, that's the whole name) started running in 1953 and is the oldest one still operating in Japan — it literally clatters between residential rooftops at a wholesome 42km/h, and that's exactly the charm. This isn't a thrill park; it's a Showa-era time capsule of creaky rides and faded paint that the neighborhood refuses to let die. Go for the retro, stay for the rooftop view of the temple and Skytree from a 70-year-old coaster. It's gloriously, defiantly un-Disney.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanayashiki",
+        "https://www.gotokyo.org/en/spot/245/index.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-sanja-matsuri",
+      "section": "culture",
+      "icon": "🎏",
+      "title_en": "Once a year, the politest neighborhood in Tokyo gets shirtless, screams, and hauls shrines through the street for three days straight.",
+      "free_intro_en": "The Sanja Matsuri every third weekend of May is considered Tokyo's wildest festival — and one of its biggest, pulling ~1.5 million people.",
+      "paid_reveal_en": "For three days, ~100 portable shrines (mikoshi) get hoisted and bounced through the streets by teams of tattooed, sweat-soaked, hoarse-voiced locals — the same shopkeepers who quietly sold you a snack last week. It's loud, it's heaving, it smells like sake and grilled squid, and there is zero personal space. If your Tokyo trip lands on the third May weekend, do not 'maybe' it — this is old Edo with its shirt off and its dignity happily on the floor.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://savvytokyo.com/asakusa-a-guide-to-tokyos-traditional-and-spiritual-downtown/",
+        "https://www.magical-trip.com/media/asakusa-events-2025-2026-complete-festival-guide-with-dates-maps-access-sanja-matsuri-sumida-fireworks-more/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-melon-pan",
+      "section": "eat",
+      "icon": "🍈",
+      "title_en": "There's a bread so good people queue down the street for it — and it's not even a real melon.",
+      "free_intro_en": "Asakusa's signature snack is the jumbo melon pan: a fist-sized sweet bun with a crackly cookie crust. (No melon involved — it's named for the lattice pattern.)",
+      "paid_reveal_en": "The famous version comes from a shop going since 1945, and the magic is in the wait: the dough proofs about three times longer than normal bread, so it comes out shatteringly crisp on the outside and unreasonably fluffy inside. Eat it within five minutes of buying — warm, it's a religious experience; cold, it's just bread. Pro move: skip the photogenic empty stalls on the main drag and follow the longest line on the west side. The queue IS the review.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://quon.jp/asakusa-food/",
+        "https://www.enjoytokyo.jp/article/110645/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-tendon",
+      "section": "eat",
+      "icon": "🍤",
+      "title_en": "Edo invented fast food 200 years ago, and it was deep-fried shrimp drowned in black sauce.",
+      "free_intro_en": "Asakusa is tendon country — tempura over rice, the comfort dish of old Tokyo. The classic look: prawns so big they hang off the bowl.",
+      "paid_reveal_en": "Tempura started as Edo street food — cheap, fast, eaten standing — and Asakusa's old shops have been perfecting it since the 1800s. The local style is dark and bold: the tempura gets dunked in a deep, sweet-savory soy sauce that soaks into the rice until the whole bowl is glossy brown. It looks intimidating. It is, in fact, a hug. Find a counter where retirees eat in silence, order the prawn tendon, and taste 200 years of Tokyo getting one dish exactly right.",
+      "layer": "guidebook",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://quon.jp/asakusa-food/",
+        "https://tabelog.com/matome/28657/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-dojo-nabe",
+      "section": "eat",
+      "icon": "🐟",
+      "title_en": "Old Asakusa's signature dish is a hotpot of tiny whole fish — and yes, you eat all of it.",
+      "free_intro_en": "Dojo nabe (loach hotpot) is the deep-cut Edo specialty here: small whole freshwater loach simmered in a flat iron pan with sweet soy broth.",
+      "paid_reveal_en": "This is the dish that scares tourists and delights everyone who tries it. The little loach are simmered until soft enough to eat bones and all, then you pile on a small mountain of chopped green onion and a dash of sansho pepper that makes your lips buzz. Some Asakusa specialists have served only this, basically unchanged, for over 200 years — wooden floors, low tables, sit-on-the-mat seating, the works. It's the most Edo thing you can put in your mouth. Be brave; the regulars at the next table will silently respect you.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://tabelog.com/matome/28657/",
+        "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-ningyoyaki",
+      "section": "eat",
+      "icon": "🍡",
+      "title_en": "They bake little cakes shaped like the temple, the lantern, and the pagoda — right in front of you, all day.",
+      "free_intro_en": "Ningyo-yaki are bite-sized sponge cakes filled with sweet red bean, molded into Asakusa icons: the lantern, the five-story pagoda, a pigeon. Kibi-dango (mini millet dumplings) are the other classic walk-and-eat snack.",
+      "paid_reveal_en": "The whole point is freshness — buy them straight off the hot iron molds while a craftsman flips them in a rhythm they've done ten thousand times. Warm ningyo-yaki has a crisp edge and a molten-soft middle that a boxed souvenir version never matches. The kibi-dango stall recreates the exact temple-gate (monzen) snack that existed here in the Edo period — five tiny skewers dusted in soybean flour, gone in thirty seconds. Get both hot, eat while walking Nakamise, and you're snacking exactly like an Edo pilgrim did 300 years ago.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.asakusa-nakamise.jp/store/pop.php?sid=16",
+        "https://san-tatsu.jp/articles/151145/",
+        "https://aumo.jp/articles/21897"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-hoppy-street",
+      "section": "off_guidebook",
+      "icon": "🍺",
+      "title_en": "There's a back alley here where it's totally normal to be drinking beer at 9:30 in the morning. Locals call it 'Stew Street'.",
+      "free_intro_en": "One alley west of the temple is Hoppy Street — a row of a dozen open-front izakaya. The official nickname is 'Nikomi-dori' (Stew Street), after the slow-braised offal stew that's the house specialty.",
+      "paid_reveal_en": "The unwritten rule of Asakusa is that day-drinking isn't a vice here — it's the local sport. Shops open around 11am (some pour from 9:30 on busy mornings), and you sit on a plastic stool at a barrel table, order 'Hoppy' (a retro beer-flavored mixer the older crowd swears by), and a bowl of melt-in-the-mouth nikomi stew. Tourist tip locals will tell you: the food's fine, the PRICE is the point, and the real magic is the cross-table chaos — by your second drink the retiree beside you is sharing his stew and his life story. Go before noon, grab an outdoor stool, and become a local in one bowl.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://tokyolucci.jp/hoppy-street",
+        "https://tabelog.com/tokyo/A1311/A131102/13110943/dtlrvwlst/B94358492/",
+        "https://note.com/igarashi_9533/n/n8e119a8739a4"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "asakusa-kannon-ura",
+      "section": "off_guidebook",
+      "icon": "🏮",
+      "title_en": "Walk five minutes past the temple and the tourists vanish — this is where Asakusa actually drinks.",
+      "free_intro_en": "Everyone clusters in front of Senso-ji. Behind it is 'Kannon-ura' — literally 'behind the Kannon' — the back streets where the neighborhood's real izakaya and old bars hide.",
+      "paid_reveal_en": "Cross to the north side of the temple and the souvenir crowds evaporate within one block. Kannon-ura is narrow lanes of tiny counter bars, geisha teahouses still quietly operating, and izakaya with no English menu and no interest in getting one — the Asakusa that exists for the people who live here, not the people photographing it. Some bars seat six. The owner will be suspicious for thirty seconds, then adopt you. This is the part of Asakusa that isn't performing for anyone. Slip back here after dark and you've found the real one.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://saka-navi.com/archives/67336",
+        "https://rtrp.jp/locations/324/categories/208/scenes/14/",
+        "https://t-navi.city.taito.lg.jp/features/32"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

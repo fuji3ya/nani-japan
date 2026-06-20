@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Nani?! Japan",
+    "slug": "nani-japan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "nanijapan",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.starvingeffort.nanijapan",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDisplayName": "Nani?! Japan"
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]
+          }
+        ],
+        "NSPrivacyTracking": false,
+        "NSPrivacyTrackingDomains": [],
+        "NSPrivacyCollectedDataTypes": []
+      }
+    },
+    "android": {
+      "package": "app.starvingeffort.nanijapan",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": { "output": "static", "favicon": "./assets/images/favicon.png" },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFDF7",
+          "dark": { "backgroundColor": "#FFFDF7" },
+          "android": { "backgroundColor": "#FFFDF7" }
+        }
+      ],
+      "expo-font",
+      "react-native-purchases"
+    ],
+    "experiments": { "typedRoutes": true, "reactCompiler": false },
+    "extra": { "router": {} }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "ueno",
+  "name_en": "Ueno",
+  "name_ja": "上野",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Ueno — where world-class museums and giant pandas sit one block from a 70-year-old black market that never quite went legit. High culture upstairs, day-drinking under the train tracks. Both are the point."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🐎",
+      "label_en": "Motsu-nikomi (offal stew)",
+      "blurb_en": "Slow-simmered since 1950. Don't ask which animal until after you've loved it."
+    },
+    {
+      "icon": "🦪",
+      "label_en": "Cheap raw seafood",
+      "blurb_en": "Fat oysters and king crab legs for pocket change, eaten standing at a fish stall"
+    },
+    {
+      "icon": "🍢",
+      "label_en": "Yakitori under the tracks",
+      "blurb_en": "Charcoal-grilled skewers, no walls, trains roaring overhead"
+    },
+    {
+      "icon": "🍶",
+      "label_en": "Senbero (1,000-yen drunk)",
+      "blurb_en": "Three drinks + a snack for under ¥1,000. A whole drinking philosophy."
+    },
+    {
+      "icon": "🍡",
+      "label_en": "Ameyoko snacks & sweets",
+      "blurb_en": "The 'candy alley' that named the market — fruit, dried squid, street bites"
+    }
+  ],
+  "cards": [
+    {
+      "id": "ueno-museum-cluster",
+      "section": "culture",
+      "icon": "🏛️",
+      "title_en": "One park, six museums, and Japan's oldest. You came for pandas — you'll leave smarter by accident.",
+      "free_intro_en": "Ueno Park packs in six major museums — the Tokyo National Museum (Japan's oldest and largest), the National Museum of Nature and Science, the National Museum of Western Art, and more — all walkable in an afternoon.",
+      "paid_reveal_en": "This is the single densest hit of culture in Tokyo: the Tokyo National Museum alone holds the country's biggest collection of Japanese art and antiquities. Pro move — buy the ticket that bundles museums, skip the blockbuster special exhibition with the two-hour line, and walk straight into the permanent galleries where the actual national treasures live, gloriously empty. You'll stand alone in front of a 1,000-year-old samurai sword while everyone else queues for a pop-up. Go on a weekday morning and pretend the place is your private collection.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e3019.html",
+        "https://www.japan.travel/en/spot/1673/",
+        "https://www.nippon.com/en/guide-to-japan/cs00077/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-panda-mania",
+      "section": "culture",
+      "icon": "🐼",
+      "title_en": "When the first pandas arrived, the line was 2km long and riot police were called in. For animals.",
+      "free_intro_en": "Ueno Zoo is Japan's oldest zoo and home to its most famous residents: giant pandas, who have caused nationwide hysteria since the first two showed up in 1972.",
+      "paid_reveal_en": "The original 1972 pandas (Kang Kang and Lan Lan) drew a 2km opening-day queue and five units of riot police to keep order. The fever was so real that zoo attendance jumped from 4 million to over 7 million within two years — a panda-powered tourism boom. Every birth since triggers another nationwide 'pandamonium,' and the whole neighborhood runs on it: panda-shaped buns, panda manhole covers, panda everything. Go early, get in the panda line before it eats your morning, and witness an entire city losing its mind over a bear that mostly sleeps. It's the most wholesome chaos in Tokyo.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.magical-trip.com/media/ueno-zoological-gardens-ueno-zoo-famous-for-cute-panda/",
+        "https://www.japan-guide.com/e/e3019.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-shinobazu-lotus",
+      "section": "culture",
+      "icon": "🪷",
+      "title_en": "There's a pond here that vanishes under a jungle of giant lotus every summer.",
+      "free_intro_en": "Shinobazu Pond sits right inside Ueno Park, and in summer it disappears beneath thousands of enormous lotus blossoms.",
+      "paid_reveal_en": "From mid-July to August the whole pond turns into a sacred-looking sea of pink lotus taller than a person, with a little Buddhist temple (Bentendo) floating on an island in the middle. The lotus is the flower of purity and rebirth in Buddhism — and dawn regulars swear the blossoms open with a faint audible *pop* as the light hits them. (Botanists argue about it; Tokyo grandpas do not.) It's one of the city's most beloved bits of folklore, and dawn is the only time you can investigate it yourself. Show up at 6am in August and it's just you, the temple bells, and a pond performing its one annual miracle — ten minutes from the panda chaos.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e3019.html",
+        "https://www.japan.travel/en/spot/1673/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-hanami-warzone",
+      "section": "culture",
+      "icon": "🌸",
+      "title_en": "300,000 people a day cram in for cherry blossoms. It's less 'serene picnic,' more 'beautiful riot.'",
+      "free_intro_en": "Ueno Park is one of Japan's Top 100 cherry blossom spots, and at peak bloom it pulls a staggering 300,000 visitors a day.",
+      "paid_reveal_en": "Forget the postcard image of a quiet hanami picnic — Ueno's blossom season is glorious, rowdy, and absolutely heaving. Office crews send their newest, most junior member at dawn to claim a tarp under the trees and guard it for nine hours until the team arrives to drink. (That's a real job. They get nothing but cold limbs and senior approval.) The trick: come at night for yozakura, when paper lanterns light the tunnel of pink and the whole avenue glows. Grab a drink from a stall, join the friendliest chaos on Earth, and toast under petals that'll be gone in a week.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e3019.html",
+        "https://www.nippon.com/en/guide-to-japan/cs00077/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-motsu-nikomi",
+      "section": "eat",
+      "icon": "🐎",
+      "title_en": "The signature dish has been simmering since 1950 — and people line up at 10am to eat offal stew for breakfast.",
+      "free_intro_en": "Ueno's most legendary cheap-eat is motsu-nikomi: offal slow-stewed for so long it falls apart, served at counters that open mid-morning to a crowd already waiting.",
+      "paid_reveal_en": "The famous version is a horse-offal stew whose recipe hasn't changed since 1950 — deep, rich, faintly sweet, and engineered to make sake disappear. The under-the-tracks counters open around 10am and are already full of solo drinkers happily eating stew and drinking before lunch, no judgment in sight. The move: order the special nikomi and a cold one, stand shoulder-to-shoulder with strangers, and don't overthink which animal it is until you've already fallen in love. This is Showa-era Tokyo still breathing — you have to stand in it to get it.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.ameyoko.net/shop/280",
+        "https://www.syokuraku-web.com/column/23567/2/",
+        "https://aumo.jp/articles/2405"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-fish-stall-bar",
+      "section": "eat",
+      "icon": "🦪",
+      "title_en": "There's a fish shop in the market where you drink standing up and eat king crab for ¥1,000.",
+      "free_intro_en": "Tucked in the Ameyoko market arcade is a working fish shop that doubles as a standing bar — you eat the seafood right there, raw and absurdly cheap.",
+      "paid_reveal_en": "This is the move tourists walk past and locals queue for: three palm-sized fat oysters for ¥1,000, a whole leg of king crab for ¥1,000, ikura rice bowls, all eaten standing at the counter with a cup of sake. Because it's literally a fish shop, the seafood is fresher and cheaper than any sit-down restaurant nearby. Timing matters — it gets a line — so roll up early afternoon, point at whatever's glistening, and have a full-blown seafood feast for the price of a coffee back home. Day-drinking with crab in your hand is a Ueno rite of passage.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://bimi.jorudan.co.jp/topics/55155.html",
+        "https://aumo.jp/articles/2405"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-senbero",
+      "section": "eat",
+      "icon": "🍶",
+      "title_en": "Ueno is the holy land of getting drunk for under ¥1,000. There's a whole word for it.",
+      "free_intro_en": "Ueno is Tokyo's capital of senbero — sen (1,000) + bero (rolling-drunk) — the art of three drinks and a snack for under ¥1,000.",
+      "paid_reveal_en": "Senbero isn't a deal, it's a culture, and Ameyoko's gritty alleys are its temple — standing bars packed so tight your shoulder touches the stranger's next to you, which is exactly the charm. Some spots open at 7am for the truly committed. Here's the local secret: you don't camp at one place. You do hashigo-zake — bar-hopping — one or two drinks each, drifting from a yakitori counter to a fish stall to an offal joint, getting happily lost. By bar three you'll be swapping snacks with regulars who don't share a language with you. Do the crawl, not the sit-down — that's how you actually drink Ueno.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://1000bero.net/category/tokyo/ue_oka/",
+        "https://haraheri.net/article/1167/ueno_daytime_drinking",
+        "https://note.com/mizuiro_no_pan/n/n16340d0fc953"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-ameyoko-blackmarket",
+      "section": "off_guidebook",
+      "icon": "🛍️",
+      "title_en": "This market started as a post-war black market — and the bargaining-shouting energy never left.",
+      "free_intro_en": "Ameyoko, the loud market street running along the train tracks, was born as a literal black market in the rubble after WWII, then went legit in the 1950s.",
+      "paid_reveal_en": "The name itself is a fossil: 'Ameya' = candy-store alley (hundreds of sweet shops sprang up first), with a second reading of 'America' alley, after the flood of US goods — Hershey's, Zippos, Ray-Bans, jeans — that came through here. Today it's 400 shops crammed into a few hundred meters, vendors literally shouting prices, and the one place in ultra-polite Tokyo where haggling is fair game. Pro tip: late afternoon, fishmongers start dumping fresh seafood and fruit at slashed prices to clear stock before close — bark back a counter-offer and you'll walk off with a tuna block for half price. It's Tokyo with its hair down. Dive in.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e3012.html",
+        "https://www.japanistry.com/ameyoko/",
+        "https://www.mlit.go.jp/tagengo-db/en/R1-00098.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "ueno-gadoshita-tracks",
+      "section": "off_guidebook",
+      "icon": "🚉",
+      "title_en": "The best drinking in Ueno is in the dark space under the train tracks. A train roars over your sake.",
+      "free_intro_en": "Skip the polished restaurants. In Ueno the real scene is the gado-shita — the brick arches directly underneath the elevated railway, packed with tiny old bars.",
+      "paid_reveal_en": "Under the tracks between Ueno and Okachimachi are yakitori counters with no walls, standing bars older than you, and joints barely big enough for ten people — and every few minutes a train thunders overhead and rattles your cup. The air is charcoal smoke and cold beer, the lighting is amber and ancient, and the regular beside you has been on that stool since before you were born — by round two he'll be teaching you the correct order to eat your skewers in. This isn't on a single tourist top-10 list, and that's the whole point. Find a counter with an open stool and a queue of suited ojisan, sit down, and let Tokyo adopt you for an evening.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://san-tatsu.jp/collects/9791/",
+        "https://www.tokyo--local.com/gourmet/ueno-hirunomi/5313/"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

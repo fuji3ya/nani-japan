@@ -1,0 +1,179 @@
+{
+  "id": "harajuku",
+  "name_en": "Harajuku",
+  "name_ja": "原宿",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Harajuku — where Tokyo keeps its sugar high. Teenagers in head-to-toe pastel, crepes the size of your face, and a 122,000-tree sacred forest hiding 100 meters from the chaos. The most extra street in Japan, two minutes from the most peaceful."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🥞",
+      "label_en": "Crepes",
+      "blurb_en": "The OG Tokyo street snack — folded, stuffed, and Instagrammed since 1976"
+    },
+    {
+      "icon": "🌈",
+      "label_en": "Rainbow cotton candy",
+      "blurb_en": "Bigger than your head, lighter than air, 90% for the photo"
+    },
+    {
+      "icon": "🍦",
+      "label_en": "Skyscraper soft-serve",
+      "blurb_en": "Soft-serve stacked absurdly tall, daring gravity and your dignity"
+    },
+    {
+      "icon": "🥔",
+      "label_en": "Tornado potato",
+      "blurb_en": "A whole spiral-cut potato on a stick — chaotic, salty, perfect"
+    },
+    {
+      "icon": "☕",
+      "label_en": "Backstreet cafe",
+      "blurb_en": "Where the grown-ups hide, one quiet block off the madness"
+    }
+  ],
+  "cards": [
+    {
+      "id": "harajuku-kawaii-birthplace",
+      "section": "culture",
+      "icon": "🎀",
+      "title_en": "There's a 350-meter street here that runs entirely on sugar and the word 'kawaii'.",
+      "free_intro_en": "Takeshita Street is a 350-meter pedestrian lane widely called the birthplace of kawaii culture — pastel everything, photo booths, and street food engineered for the camera.",
+      "paid_reveal_en": "This is where teen Japan invents what it'll wear next: Lolita, dreamy 'yume-kawaii' pastels, decora piled with clips, all crammed into one screaming neon corridor. The trick locals know — it turns into a pure human traffic jam from 11am, peaking 2–4pm when you literally can't lift your arms to take a photo. Show up at 10am on a weekday and the whole rainbow circus is briefly all yours — shops just opening, no shoulder-to-shoulder shuffle. Walk it once at full chaos for the experience, then come back early — you'll feel like you snuck backstage.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/spot/48/index.html",
+        "https://www.gltjp.com/en/article/item/20395/",
+        "https://banzokubiology.com/takeshita-street-crowded-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-meiji-jingu-forest",
+      "section": "culture",
+      "icon": "🌳",
+      "title_en": "100 meters from the cotton-candy chaos is a 70-hectare forest — and every single tree was hand-planted.",
+      "free_intro_en": "Step out the other side of Harajuku Station and you're at Meiji Jingu, a vast shrine wrapped in a 70-hectare forest. Plot twist: the whole forest is man-made.",
+      "paid_reveal_en": "In 1920, around 110,000 volunteers planted some 122,000 donated trees of 365 species to honor Emperor Meiji — and they chose every tree for how it would look in 100 or 200 years. Since then humans don't touch it: fallen trees are left to rot back into soil. So you go from the loudest, most teenage street in Tokyo to a self-sustaining sacred jungle in a two-minute walk. Do it deliberately — crepe in hand on Takeshita, then cross into total green silence. No other city on Earth lets you whiplash like this.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.meijijingu.or.jp/en/whattosee/forest/",
+        "https://www.nippon.com/en/japan-topics/g00866/",
+        "https://www.japan-guide.com/e/e3002.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-omotesando-champs",
+      "section": "culture",
+      "icon": "🌳",
+      "title_en": "One block over, the teenagers vanish and it turns into Tokyo's Champs-Élysées.",
+      "free_intro_en": "Cross from teen-mobbed Takeshita to Omotesando and the energy flips: a wide, zelkova-tree-lined boulevard of flagship architecture, nicknamed Tokyo's Champs-Élysées.",
+      "paid_reveal_en": "Same neighborhood, opposite planet. Here global architects competed to out-design each other on luxury flagships, so even broke window-shoppers come just to gawk at the buildings. The grown-up move: walk Omotesando in the early evening when the zelkova trees light up and the daytime shopping crowd thins. You came to Harajuku for the candy-colored chaos and accidentally found one of the most elegant strolls in Tokyo — both within the same five minutes on foot.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.gotokyo.org/en/spot/48/index.html",
+        "https://www.gltjp.com/en/article/item/20395/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-crepes",
+      "section": "eat",
+      "icon": "🥞",
+      "title_en": "Japan invented the hand-held crepe right here in 1976, and the format never left.",
+      "free_intro_en": "Harajuku is the birthplace of Japan's folded, paper-wrapped, eat-while-walking crepe — the pioneer shop opened on these streets in 1976 and the whole genre exploded from here.",
+      "paid_reveal_en": "This isn't a thin French dessert crepe — it's a cone of soft batter packed with whipped cream, fruit, cheesecake, sometimes a whole slice of cake, folded so you can eat it one-handed in a crowd. That was the genius move: street food you could carry. The play is to ignore the longest tourist line and duck to a counter just off the main drag where locals actually order. Get the strawberry-cheesecake-cream classic, eat it walking, and understand why an entire snack culture started on this exact street.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.magical-trip.com/media/harajukus-origin-marion-crepes/",
+        "https://www.byfood.com/blog/tokyo/harajuku-crepe-shops",
+        "https://japancitytour.com/harajuku_cuisine/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-rainbow-snacks",
+      "section": "eat",
+      "icon": "🌈",
+      "title_en": "Half the food here is engineered to be photographed, not eaten. Lean in.",
+      "free_intro_en": "Rainbow cotton candy bigger than your head, soft-serve stacked absurdly tall, spiral-cut tornado potatoes on sticks — Takeshita Street's signature snacks are pure spectacle.",
+      "paid_reveal_en": "Yes, the giant rainbow cotton candy is mostly air and the photo is the point — but the locals' trick is the savory side nobody films: the tornado potato, a whole spud spiral-cut onto a skewer, deep-fried and dusted with cheese or seaweed salt, is genuinely addictive. Buy the rainbow cloud, watch it vanish on your tongue like a cartoon special effect, then get the potato for the actual meal. One's a magic trick, one's lunch — Takeshita refuses to choose between them, and neither should you.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.gltjp.com/en/article/item/20395/",
+        "https://www.shiny-tours.com/post/tokyo-takeshita-street-harajuku-heartbeat-of-fashion-flavor",
+        "https://kiyotaryokan.jp/article-105.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-backstreet-cafe",
+      "section": "eat",
+      "icon": "☕",
+      "title_en": "The adults aren't on Takeshita. They're one quiet block off it, drinking very good coffee.",
+      "free_intro_en": "The grown-up Harajuku food scene isn't on the teen drag at all — it's in the calm backstreets of Ura-Hara, where the cafes and roasters hide.",
+      "paid_reveal_en": "Step one block off the cotton-candy madness and the volume drops to zero: little specialty coffee counters, slow brunch spots, and patisseries tucked into residential lanes that the Takeshita crowd never finds. This is where Tokyo locals actually 'do Harajuku' — sit, eat properly, watch the fashionable drift past. The move is to brave Takeshita for 20 minutes of chaos, then retreat here to recover with a flat white and a pastry. Same neighborhood, completely different age bracket — and the food's better.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://note.com/andlove_editer/n/nf69f21ecc277",
+        "https://tokyo-sanpo.com/cat-street",
+        "https://heijitu-club.com/?p=109"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-cat-street",
+      "section": "off_guidebook",
+      "icon": "🐈",
+      "title_en": "There's a 1km 'street' here that's actually a river the city paved over.",
+      "free_intro_en": "Cat Street runs roughly 1km from Harajuku toward Shibuya — and a big stretch of it is literally a covered-over section of the old Shibuya River, paved into a walkway in 1964.",
+      "paid_reveal_en": "Because it's built on a buried river, Cat Street curves gently and bans through-traffic, so it stays weirdly calm even when Takeshita is a mosh pit two minutes away. This is where the grown-up Harajuku lives: vintage shops, streetwear flagships, and people who are actually too cool to stand in a crepe line. Walk it slowly toward Shibuya, ducking into the side lanes of Ura-Hara — the backstreets where Tokyo's '90s street fashion was born. It's the route locals take when they want Harajuku without the teenagers, and it ends with you spat out in Shibuya like you know a secret.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.tour-harajuku.com/spot/uraharajuku/",
+        "https://tokyo-sanpo.com/cat-street",
+        "https://travelbook.co.jp/topic/43014"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "harajuku-brahms-alley",
+      "section": "off_guidebook",
+      "icon": "⛲",
+      "title_en": "Tucked off the backstreets is a tiny alley that pretends it's somewhere in Europe.",
+      "free_intro_en": "Hidden in the Ura-Hara backstreets is a little lane locals call Brahms-no-Komichi — old-style street lamps, a small fountain, and a deliberately European feel.",
+      "paid_reveal_en": "Most visitors burn their whole Harajuku trip on the 350 meters of Takeshita and never realize the neighborhood has these pocket-sized escape rooms. Brahms Path is barely wide enough for two people, quiet enough to hear the fountain, and so off-script you'll forget you're standing in the loudest fashion district in Tokyo. Find it on the way down to Cat Street, stand in it for five minutes, and feel the city completely change character around you. This is the Harajuku that doesn't make it onto anyone's top-10 list.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.tour-harajuku.com/spot/uraharajuku/",
+        "https://note.com/andlove_editer/n/nf69f21ecc277"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "shibuya",
+  "name_en": "Shibuya",
+  "name_ja": "渋谷",
+  "prefecture": "tokyo",
+  "tier": "ward",
+  "header": {
+    "tagline_en": "Shibuya — the world's most famous intersection, wrapped in a shopping mall, surrounded by teenagers. Loud, neon, gloriously overwhelming. But the locals? They ducked into a back alley three minutes ago — and that's where the good stuff is."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍢",
+      "label_en": "The alley bars",
+      "blurb_en": "Tiny yakitori/drink counters under the tracks — the real night out"
+    },
+    {
+      "icon": "🍜",
+      "label_en": "Late-night ramen",
+      "blurb_en": "Shibuya runs on it after midnight"
+    },
+    {
+      "icon": "☕",
+      "label_en": "Third-wave coffee",
+      "blurb_en": "But in the quiet Shibuya (see below)"
+    }
+  ],
+  "cards": [
+    {
+      "id": "shibuya-scramble",
+      "section": "culture",
+      "icon": "🚥",
+      "title_en": "Up to 3,000 people cross the street here at once. On purpose. Constantly.",
+      "free_intro_en": "The Shibuya Scramble Crossing is the busiest pedestrian crossing on Earth — a human tsunami of ~3,000 people every green light, going strong since 1973.",
+      "paid_reveal_en": "The crowd is the attraction — but everyone fights for the same photo from the same overpriced window. The local move: don't pay. Certain free station walkways and building landings give you the exact same god's-eye view, with somewhere to sit. Best at night in the rain — neon bounces off a thousand umbrellas and it looks like a movie (because it's literally been in about fifty of them). Stand above it once and you'll watch for an hour.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shibuya_Crossing",
+        "https://www.magical-trip.com/media/the-icons-of-shibuya-scramble-crossing-and-hachiko-statue/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-hachiko",
+      "section": "culture",
+      "icon": "🐕",
+      "title_en": "There's a statue of a dog here that will absolutely make you cry.",
+      "free_intro_en": "Hachiko waited at this station every single day for his owner to come home from work — and kept waiting for years after the man had died. Ninety years later, people still leave him flowers.",
+      "paid_reveal_en": "Here's what the guidebooks skip: Hachiko is also Tokyo's #1 'meet me here' landmark, so he's permanently mobbed and shockingly small — a one-meter bronze dog drowning in a sea of selfie sticks. Locals never actually rendezvous at the statue; 'Hachiko' just means 'that general corner.' Snap the photo, feel the feelings, then escape — the magic is the story, not the queue.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e3007.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-sky",
+      "section": "culture",
+      "icon": "🌇",
+      "title_en": "The best view in Tokyo has no glass, and a net you can lie down on.",
+      "free_intro_en": "Shibuya Sky is a 229m open-air rooftop on top of Scramble Square — no windows between you and Mt. Fuji.",
+      "paid_reveal_en": "Sunset slots sell out days ahead and the famous corner has a queue. The pro-move: book the slot ~40 minutes before sunset and you get daylight, golden hour, AND the neon grid flickering on — three different cities for one ticket. Then go lie on the rooftop net and watch planes drift over the biggest city on Earth. Nobody comes down from that roof unchanged.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.kkday.com/en/blog/59355/shibuya-sky-guide-tickets",
+        "https://www.japan-guide.com/e/e3007.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-nonbei",
+      "section": "eat",
+      "icon": "🍢",
+      "title_en": "The real Shibuya dinner isn't in any tower — it's in a 70-year-old alley by the tracks.",
+      "free_intro_en": "Skip the mall food courts. Shibuya's best night out survives in a cramped alley left over from the post-war black market.",
+      "paid_reveal_en": "Nonbei Yokocho — around 70 shoebox bars crammed under the train tracks since ~1950, most seating just 4–6 people. You sit elbow-to-elbow with strangers, the master knows your name by drink two, and a train rumbles overhead mid-sip. It's the exact opposite of the giant neon mall 100m away — and it's the locals' honest answer to 'where do you really drink in Shibuya?' Go early; the good ones fill in minutes.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.shibuyabunka.com/keyperson/?id=152",
+        "http://www.nonbei.tokyo/",
+        "https://www.gltjp.com/en/directory/item/10870/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-okushibu",
+      "section": "eat",
+      "icon": "☕",
+      "title_en": "Ten minutes from the screaming neon, there's a Shibuya that whispers.",
+      "free_intro_en": "There's a second Shibuya almost no tourist finds — and it's where the grown-ups actually hang out.",
+      "paid_reveal_en": "Northwest of the station, 'Okushibu' (Deep Shibuya) swaps the chaos for indie coffee roasters, tiny natural-wine bars, and record shops. Same neighborhood, zero crush. This is where Tokyo creatives escape when they're sick of Tokyo. Walk ten minutes uphill from the crossing and the whole city exhales — then order a hand-dripped coffee and feel smug.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e3007.html",
+        "https://www.tokyoscope.blog/p/why-shibuya-no-longer-feels-like"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-fell-off",
+      "section": "off_guidebook",
+      "icon": "🫥",
+      "title_en": "Real Tokyoites don't actually hang out in Shibuya anymore.",
+      "free_intro_en": "Here's the secret the tourism posters won't print: a lot of locals think Shibuya kind of… fell off.",
+      "paid_reveal_en": "Wave after wave of redevelopment — gleaming towers, Miyashita Park, Sakura Stage — turned the scrappy '90s youth capital into a polished corporate mall, and plenty of Tokyoites now write off central Shibuya as a tourist-and-teenager theme park. The twist: that same bulldozing is exactly why the surviving old alleys feel precious. Knowing this flips your whole visit — do the famous crossing once for the photo, then spend your real hours in the cracks the developers missed. That's where Shibuya's soul actually moved.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.tokyoscope.blog/p/why-shibuya-no-longer-feels-like",
+        "https://www.japan-guide.com/e/e3007.html"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "shibuya-rain",
+      "section": "off_guidebook",
+      "icon": "🌧️",
+      "title_en": "Shibuya has a weather cheat code.",
+      "free_intro_en": "Most people think rain ruins a Shibuya visit. They have it exactly backwards.",
+      "paid_reveal_en": "A rainy night is when the Scramble Crossing becomes the most cinematic place in Tokyo — umbrellas bloom, neon smears across wet asphalt, and the whole intersection turns into a Blade Runner frame. Locals and photographers wait for rain. Bring a clear umbrella, find a free overhead walkway, and you'll get the shot everyone else flew here for and missed.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "factcheck": "vibe"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "nara",
+  "name_en": "Nara",
+  "name_ja": "奈良",
+  "prefecture": "nara",
+  "tier": "prefecture",
+  "header": {
+    "tagline_en": "Nara — Japan's first real capital, where the deer bow like gentlemen and then mug you for crackers. A 1,300-year-old Buddha, a hillside of 3,000 lanterns, and 1,400 sacred animals who have collectively decided you owe them snacks. Bow back. It's polite. It's also a warning."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🍣",
+      "label_en": "Kakinoha-zushi",
+      "blurb_en": "Pressed sushi wrapped in a persimmon leaf — invented because Nara has no sea, genius solved by salt"
+    },
+    {
+      "icon": "🍜",
+      "label_en": "Miwa somen",
+      "blurb_en": "Said to be Japan's oldest somen — thread-thin noodles with a backbone, from a village near here"
+    },
+    {
+      "icon": "🍡",
+      "label_en": "Yomogi mochi",
+      "blurb_en": "Mugwort rice cake pounded so fast it looks like a street fight"
+    },
+    {
+      "icon": "🥒",
+      "label_en": "Narazuke",
+      "blurb_en": "Veg pickled in sake lees since the 700s — boozy, amber, weirdly addictive"
+    },
+    {
+      "icon": "🍮",
+      "label_en": "Kuzu",
+      "blurb_en": "Yoshino arrowroot — silky kuzumochi and kuzukiri that wobble like edible glass"
+    }
+  ],
+  "cards": [
+    {
+      "id": "nara-bowing-deer",
+      "section": "culture",
+      "icon": "🦌",
+      "title_en": "The famous bowing deer aren't being polite. They're shaking you down.",
+      "free_intro_en": "Nara's deer 'bow' for crackers and the internet loves it — Japan's most well-mannered animal, right? Researchers at a local university actually studied it: the bow is 100% learned-for-food, not instinct or respect.",
+      "paid_reveal_en": "Locals have a much funnier read on it. That deep, gentlemanly bow? It's basically a tiny mafia shakedown — the deer-keeper meaning is closer to 'Oi. You holding crackers or not? Hand 'em over.' And here's the part guides skip: that lowered head is the exact posture they use right before a headbutt. Tease them — bow back without paying up, hide the senbei to milk one more cute bow — and the gentleman vanishes: they'll nip your sleeve, butt your backside, or chase you flat-out. The move is to buy the crackers, fan them out, and give them up fast and all at once. You came to be politely bowed at by Japan. You'll leave having been gently extorted by a deer. Worth every flight.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://narapark.org/deer/",
+        "https://togetter.com/li/2351447",
+        "https://www3.pref.nara.jp/park/1003.htm"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-deer-national-treasure",
+      "section": "culture",
+      "icon": "👑",
+      "title_en": "These aren't tame petting-zoo deer. They're wild animals and a literal National Treasure.",
+      "free_intro_en": "Around 1,400 sika deer roam Nara Park completely free — and they're not pets. They're legally protected as a Natural Monument, treated as sacred messengers of the gods since the 8th century.",
+      "paid_reveal_en": "DNA tells a wild story: a study found the Nara Park herd is its own genetic population, split off from the rest of the peninsula's deer around 1,400 years ago — almost exactly when the great Kasuga shrine was founded. So these animals have been 'the deer of Nara,' specifically, for thirteen centuries. That sacred status is also why you'll see them strolling through traffic, snoozing on shop steps, and shoving their nose into your tote bag like they own the place — because, culturally and legally, they kind of do. Stand still in the park at dawn and watch a thousand of them drift across the grass through the mist. It rearranges something in your chest.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nara_Park",
+        "https://narapark.org/deer/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-buddha-nostril",
+      "section": "culture",
+      "icon": "👃",
+      "title_en": "There's a hole the size of the Great Buddha's nostril, and people crawl through it for enlightenment.",
+      "free_intro_en": "Todai-ji houses the world's largest bronze Buddha — 15 metres, 500+ tonnes of cosmic Buddha, finished in 749 inside a hall so big it stuns you at the door.",
+      "paid_reveal_en": "Behind the statue, one giant wooden pillar has a hole carved through its base — about 37cm by 30cm, said to match the size of the Buddha's actual nostril. Legend: squeeze all the way through and you're guaranteed enlightenment in your next life. So inside one of the holiest, most awe-inducing buildings on Earth, there's a permanent queue of kids wriggling through a Buddha booger-hole while parents cheer and film. It's the perfect Nara mood: profound and absolutely ridiculous at once. Go early before the school groups — slip through the nostril at 8am with no line, then stand alone under the giant Buddha while the hall is silent. That's the version people fly across the world for.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://www.japan-guide.com/e/e4100.html",
+        "https://livejapan.com/en/in-kansai/in-pref-nara/in-nara_ikoma_tenri/article-a2000163/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-first-capital-lanterns",
+      "section": "culture",
+      "icon": "🏮",
+      "title_en": "Japan's first permanent capital, and a hillside of 3,000 lanterns lit twice a year.",
+      "free_intro_en": "Before Kyoto, before Tokyo, there was Nara — Japan's first permanent capital from 710, laid out as a grid copying China's Tang-dynasty capital. The vermillion Kasuga Taisha shrine has been collecting lanterns ever since.",
+      "paid_reveal_en": "Roughly 3,000 lanterns — around 2,000 stone ones lining the forest paths and 1,000 bronze ones hanging in the halls — donated by worshippers across a thousand years. Almost any day they sit dark and mossy and beautiful. But twice a year, at Setsubun Mantoro (early February) and Chugen Mantoro (mid-August), every single one is lit at dusk. The stone path through the deer forest turns into a river of flame, the bronze hall glows gold, and the whole thing flickers in total near-silence. Time your trip to those few nights. It is, hands down, one of the most quietly overwhelming things you can witness in Japan.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.kanpai-japan.com/nara/setsubun-mantoro",
+        "https://en.wikipedia.org/wiki/Nara_period",
+        "https://narashikanko.or.jp/en/event/chugenmantoro/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-kakinoha-zushi",
+      "section": "eat",
+      "icon": "🍣",
+      "title_en": "Nara is landlocked, so they invented sushi that survives the trip from the sea.",
+      "free_intro_en": "Nara has no coastline — a real problem in fish-obsessed Japan. Their answer: kakinoha-zushi, pressed sushi where salt-cured mackerel or salmon is wrapped tight in a persimmon leaf.",
+      "paid_reveal_en": "The persimmon leaf isn't decoration — it's natural antibacterial packaging, the original food-preservation hack from before refrigerators existed. Salted fish hauled over the mountains, sealed in leaves, pressed into neat little blocks that keep for days. The flavour is clean and a little tangy, the rice firm, and the faint leaf-scent makes it taste like the mountains it crossed. Modern shops now do conger eel and golden-eye snapper too. Grab a boxed set and eat it on a park bench while a deer judges you — it travels perfectly, which was the entire point a thousand years ago.",
+      "layer": "guidebook",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://haraheri.net/article/770/nara_gourmet",
+        "https://narashikanko.or.jp/feature/gourmet"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-miwa-somen",
+      "section": "eat",
+      "icon": "🍜",
+      "title_en": "The thinnest noodles in Japan come from a village here — and they have a spine.",
+      "free_intro_en": "Miwa somen, from the Miwa area near Nara, is said to be the birthplace of somen — the hair-thin wheat noodle. Most somen goes limp. This stuff is famous for staying springy.",
+      "paid_reveal_en": "The trick is age and weather: the dough is hand-stretched thinner and thinner, then dried through the cold dry Nara winter, which firms it into noodles that hold their bite (koshi) even in cold water. In summer you eat it ice-cold, swirling threads through dipping sauce; in winter the same noodles go into nyumen, a gentle hot broth that's basically a hug. There's a centuries-old shrine in Miwa considered the home of the craft. Find a quiet noodle counter, order the cold somen on a sweltering August afternoon, and feel why a noodle this thin became a 1,200-year-old art.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://tripfolio.jp/article/nara-local-food-guide-v2",
+        "https://narashikanko.or.jp/feature/gourmet"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-mochi-pounding",
+      "section": "eat",
+      "icon": "🍡",
+      "title_en": "Watch mochi get pounded so fast it looks less like cooking and more like a fistfight.",
+      "free_intro_en": "Pounding mochi (mochitsuki) is usually slow and ceremonial. In central Nara there's a sweet shop that turned it into a blink-and-you-miss-it street spectacle.",
+      "paid_reveal_en": "Two people, one wooden mortar: one swings the heavy mallet at a frankly alarming speed, the other flips the sticky mass between strikes with bare hands, chanting and yelling to keep rhythm — fast enough that one slip would flatten a finger. A crowd gathers, phones up, hearts in throats. Seconds later you're handed a warm yomogi mochi: mugwort-green, impossibly soft, wrapped around smooth red bean paste, still warm from the violence. It's sweet, herbal, and tastes about a thousand times better for having watched it nearly cost someone a knuckle. Stand at the front, eat it on the spot, and try not to flinch.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://haraheri.net/article/770/nara_gourmet",
+        "https://tabelog.com/en/nara/A2901/A290101/29000222/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-narazuke-kuzu",
+      "section": "eat",
+      "icon": "🥒",
+      "title_en": "Pickles that can get you slightly buzzed, and a dessert that wobbles like glass.",
+      "free_intro_en": "Two ancient Nara specialties: narazuke, vegetables pickled in sake lees since the Nara-period court ate them, and kuzu, the prized Yoshino arrowroot.",
+      "paid_reveal_en": "Narazuke is the wild one — white melon, cucumber and ginger buried in sake lees for months until they turn deep amber, sweet-savoury, and faintly boozy enough that people half-joke you shouldn't drive after a big serving. Old Nara families swear by it with rice or even cream cheese. Then there's kuzu: top-grade Yoshino arrowroot turned into kuzumochi and kuzukiri — cool, clear, jiggly noodles and cakes that quiver like edible glass and slide down on a hot day. Buy a small jar of narazuke as the strangest, most ancient souvenir in your bag, and eat fresh kuzu at the source where it's made — the wobble alone is worth the detour.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://furunavi.jp/discovery/knowledge_food/202408-nara/",
+        "https://narashikanko.or.jp/feature/gourmet"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-deer-real-rules",
+      "section": "off_guidebook",
+      "icon": "⚠️",
+      "title_en": "The deer have a yearly mood calendar, and locals know exactly when to keep their distance.",
+      "free_intro_en": "Guides say 'the deer are friendly!' Locals know the truth: friendliness is seasonal, and recent years have seen minor deer-contact incidents jump sharply — mostly with tourists who didn't know the unwritten rules.",
+      "paid_reveal_en": "Residents read the deer like a weather forecast. Roughly May to July is fawning season — mother deer get jumpy and protective, so giving a baby deer space isn't optional. September to November is rutting season, when antlered males turn genuinely short-tempered; the city even saws the antlers off the bucks in autumn for safety, and you do NOT approach those. The other unwritten rule that ends most sleeve-bites: feed crackers FAST. Make a deer wait, or fan empty hands to fake one more bow, and the bow turns into a shove. Tourists feeding them ice cream and other junk (which can actually hurt them) is the local pet peeve. Learn the calendar, give crackers like you mean it, and you get the magic version — a hundred deer treating you like an old friend — instead of the viral 'tourist gets chased' version.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www3.pref.nara.jp/park/1003.htm",
+        "https://bellstoy-micchan.com/%E5%A5%88%E8%89%AF%E5%85%AC%E5%9C%92%E3%81%AE%E9%B9%BF%E3%81%82%E3%82%8B%E3%81%82%E3%82%8B%E3%80%80%E8%A6%B3%E5%85%89%E5%89%8D%E3%81%AB%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84/",
+        "https://www.kobe-np.co.jp/rentoku/omoshiro/202305/0016321589.shtml"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "nara-go-early-empty-temples",
+      "section": "off_guidebook",
+      "icon": "🌅",
+      "title_en": "Everyone day-trips Nara from Kyoto and leaves by 4pm. Stay the night and the city becomes yours.",
+      "free_intro_en": "Most visitors treat Nara as a half-day from Kyoto: arrive late morning, fight the crowds, leave by afternoon. Locals will tell you that's the worst possible schedule.",
+      "paid_reveal_en": "The whole town flips at the edges of the day. Go to Todai-ji and the park at opening — 8am — and you'll have the giant Buddha, the lantern paths, and the misty grass shared with nobody but the deer, who've also just woken up. Stay overnight (cheaper and quieter than Kyoto) and after the day-trippers' last train, the lantern-lined approach to Kasuga Taisha empties out and the deer reclaim the streets, clopping past closed shops in the dusk. The difference between Nara-the-zoo and Nara-the-ancient-capital is purely a matter of one hour. Trade one lazy hotel morning for it: dawn Nara isn't a quieter version of the day-trip city — it's a different city entirely, and the deer kept it for themselves until you showed up.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.japan-guide.com/e/e4100.html",
+        "https://www.travel.co.jp/guide/article/32944/"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}

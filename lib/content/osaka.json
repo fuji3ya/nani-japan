@@ -1,0 +1,221 @@
+{
+  "id": "osaka",
+  "name_en": "Osaka",
+  "name_ja": "大阪",
+  "prefecture": "osaka",
+  "tier": "prefecture",
+  "header": {
+    "tagline_en": "Osaka — the city that decided Kyoto could keep the temples, because it was busy eating itself bankrupt. Loud, broke, hilarious, and the best food you'll ever ruin your wallet for. Tokyo is where Japan works. Osaka is where Japan has FUN."
+  },
+  "eat_quicklist": [
+    {
+      "icon": "🐙",
+      "label_en": "Takoyaki",
+      "blurb_en": "Molten octopus balls. The city's national flag, basically."
+    },
+    {
+      "icon": "🥞",
+      "label_en": "Okonomiyaki",
+      "blurb_en": "'Whatever-you-like' savory pancake. Cabbage, batter, chaos, joy."
+    },
+    {
+      "icon": "🍢",
+      "label_en": "Kushikatsu",
+      "blurb_en": "Deep-fried skewers — and the ONE sauce rule that can get you scolded"
+    },
+    {
+      "icon": "🥟",
+      "label_en": "Butaman (pork buns)",
+      "blurb_en": "Steamed pork buns. 170,000 sold a day. There's a reason."
+    },
+    {
+      "icon": "🦊",
+      "label_en": "Kitsune udon",
+      "blurb_en": "Sweet fried tofu on udon — Osaka literally invented it"
+    }
+  ],
+  "cards": [
+    {
+      "id": "osaka-glico-running-man",
+      "section": "culture",
+      "icon": "🏃",
+      "title_en": "A cartoon man has been sprinting in place over a canal since 1935 and never finishes the race.",
+      "free_intro_en": "The Glico Running Man — a giant glowing athlete forever crossing a finish line over the Dotonbori canal — is THE icon of Osaka, up since 1935.",
+      "paid_reveal_en": "Here's the local secret: the sign you're photographing is the SIXTH version (LED, since 2014), and Osakans treat him like a member of the family — they redress him for World Cups and light him up for the Hanshin Tigers. The real move isn't the daytime selfie everyone takes; it's standing on Ebisubashi bridge at night when the whole canal turns into a wall of screaming neon and the runner reflects in the water. Come after dark, look UP, and you'll understand why this one little man means 'we made it to Osaka' to every single person in this country.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/D%C5%8Dtonbori",
+        "https://www.japan.travel/en/spot/2207/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-comedy-capital",
+      "section": "culture",
+      "icon": "🎤",
+      "title_en": "Osaka has a 858-seat theater where the only thing on stage is people trying to make you laugh. It sells a million tickets a year.",
+      "free_intro_en": "Kansai is the official birthplace of Japanese comedy, and Namba Grand Kagetsu (NGK) is its cathedral — the biggest dedicated comedy theater in Japan, run by Yoshimoto, the company that's shaped Japanese humor since 1912.",
+      "paid_reveal_en": "Two-plus hours of manzai (rapid-fire duo stand-up), konto (sketch), and shinkigeki (gloriously dumb slapstick) — and here's the thing: Osakans are wired for this in real life. The 'boke and tsukkomi' reflex (the dummy and the straight-man who smacks him) isn't just on stage; shopkeepers will do a bit with you, strangers crack jokes at bus stops. Even if your Japanese is zero, the physical comedy (shinkigeki) lands. Buy a same-day ticket, sit in a room of 858 Osakans wheezing with laughter, and feel a city's entire personality hit you at once. You will not stop grinning for a week.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://osaka-info.jp/en/spot/namba-grand-kagetsu/",
+        "https://livejapan.com/en/in-kansai/in-pref-osaka/in-namba_dotonbori_shinsaibashi/article-a2000113/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-escalator-flip",
+      "section": "culture",
+      "icon": "🛗",
+      "title_en": "Stand on the wrong side of an Osaka escalator and you've just outed yourself as a Tokyo person.",
+      "free_intro_en": "In Tokyo everyone stands on the LEFT. In Osaka — and only Osaka's region — everyone stands on the RIGHT. It's the same country, flipped.",
+      "paid_reveal_en": "The split is a real historical fork: it traces to the 1970 Osaka Expo, when stations told riders to keep the left lane open for walkers (a habit said to be copied from the London Underground). Tokyo had gone the other way three years earlier. So this isn't random — it's two cities quietly refusing to do it the other one's way for 50+ years. Locals notice instantly when a visitor blocks the walking lane. Nail the right-side stand on your first escalator and you'll feel like you cracked a secret handshake — a tiny 'I get this city' moment no guidebook gives you the satisfaction of.",
+      "layer": "guidebook",
+      "is_food": false,
+      "is_free_sample": true,
+      "sources": [
+        "https://japanbite.com/blogs/news/why-do-people-stand-on-different-sides-of-escalators-in-tokyo-and-kansai",
+        "https://makimono-manners.com/en/1449/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-shinsekai-tsutenkaku",
+      "section": "culture",
+      "icon": "🗼",
+      "title_en": "There's a retro tower district built in 1912 to look like Paris and Coney Island. It now looks gloriously like neither.",
+      "free_intro_en": "Shinsekai ('New World') was Osaka's 1912 vision of the future, crowned by Tsutenkaku tower. Today it's the city's most defiantly old-school, neon-soaked, slightly grubby playground.",
+      "paid_reveal_en": "This is where Osaka stops performing for tourists and just IS. Locals start drinking here at 9am without shame — and that's not a joke, the whole 'asa-nomi / hiru-nomi' (morning-drinking / day-drinking) culture is alive in the alley called Jan-Jan Yokocho, a 150-meter gauntlet of tiny standing bars packed shoulder to shoulder. Old men play go, the smell of frying skewers never stops, and a beer-plus-snacks costs about the price of a Tokyo coffee. Wander in around lunch, point at whatever the regular next to you is having, and you'll get the real, unfiltered Osaka the postcards are too polite to show you.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://1000bero.net/tabi_osaka/",
+        "https://osaka-info.jp/local_journey/oneday-tour/shinsekai-guide/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-takoyaki",
+      "section": "eat",
+      "icon": "🐙",
+      "title_en": "Osaka invented a snack that is 100% guaranteed to burn the roof of your mouth, and the city is proud of it.",
+      "free_intro_en": "Takoyaki — molten balls of batter with a chunk of octopus inside, flipped in a special dimpled pan — was born in Osaka and is basically the city's edible mascot.",
+      "paid_reveal_en": "Locals will tell you the soul of a great takoyaki is the inside: it should be almost liquid, custardy, dangerously hot — crispy shell, molten center. Bite too fast and you WILL get burned; that's part of the deal, and Osakans laugh about it. The pro move? The famous Dotonbori stalls are fine but mobbed — residents quietly rate the neighborhood shops off the tourist strip, where an obachan has flipped the same pan for 30 years and the dashi flavor actually comes through. Find the unglamorous one with locals lined up, not the one with the giant octopus statue. First perfect bite — crisp, soft, that octopus snap — and you'll get why a whole city built its identity around a ball of dough.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.funliday.com/posts/osaka-takoyaki/",
+        "https://note.com/sari_skuragi/n/n75df8c28de00"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-okonomiyaki",
+      "section": "eat",
+      "icon": "🥞",
+      "title_en": "The name of Osaka's signature dish literally translates to 'grill whatever you like.' That's the whole philosophy of the city in one word.",
+      "free_intro_en": "Okonomiyaki — a savory pancake of cabbage, batter, and your choice of fillings, griddled and slathered in sweet sauce, mayo, bonito flakes and seaweed — is Osaka comfort food at its loudest.",
+      "paid_reveal_en": "Here's the part the photos miss: at the good places you cook it yourself on the teppan griddle built into your table, and there's etiquette — let it sit, don't smush it, flip ONCE. (Mash it like a tourist and the regulars will silently judge.) Order it 'butatama' (pork-and-egg) the way locals do, add a side of yakisoba, and watch the cook paint the sauce-and-mayo lattice like it's art. The whole table fills with sizzle and steam and that sweet-savory smell — it's dinner and a show and a craft lesson at once. Nothing makes you feel more like you're actually living in Osaka than flipping your own.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://rtrp.jp/locations/1099/categories/55/scenes/14/",
+        "https://heyexplorer.com/what-is-osaka-known-and-famous-for/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-kushikatsu-no-double-dip",
+      "section": "eat",
+      "icon": "🍢",
+      "title_en": "Osaka has ONE food law so sacred it's posted on the wall, and breaking it is a genuine social crime: no double-dipping.",
+      "free_intro_en": "Kushikatsu — crispy deep-fried skewers of meat, veg and seafood — come with a communal tub of tangy brown sauce on every table. The iron rule: you may dip a skewer ONCE.",
+      "paid_reveal_en": "This rule was born in Shinsekai, where kushikatsu started as cheap fuel for Showa-era workers, and it's not snobbery — it's practical: everyone shares the sauce tub, so a second dip means your saliva goes back in the communal pot (and spoils it). Tourists get caught out constantly. The insider workaround locals use: take a piece of the free shredded cabbage that comes with your order, scoop sauce with it, and pour it over your skewer — unlimited sauce, zero crime. Master that one move and the gruff Shinsekai shop master will give you the tiniest nod of respect. Go sit at a battered counter, order skewers one at a time, obey the law, and eat like you belong.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://www.jeepe.jp/en/articles/osaka-kushikatsu-1426",
+        "https://osaka-info.jp/en/gourmet/gastronomy-kushikatsu/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-551-butaman",
+      "section": "eat",
+      "icon": "🥟",
+      "title_en": "There's a pork bun in Osaka so beloved that the shops sell 170,000 of them. Per day.",
+      "free_intro_en": "Osaka's most famous steamed pork buns — fluffy, hand-folded, stuffed with juicy pork and onion since the 1940s — are basically the official smell of every Kansai train station.",
+      "paid_reveal_en": "Osakans don't even call them 'nikuman' like the rest of Japan — here they're 'butaman' (pork-bun), and the rivalry over the best one is real. The local move: get them piping hot from a counter where you can watch them being folded by hand (they only make what'll sell that day, so the bun stays pillowy), and eat the first one standing right there before it cools. The other unwritten rule — carrying a box of these on the bullet train is a legendary flex AND a faux pas, because the whole carriage will smell them and be jealous. Grab a couple fresh, bite through that soft bun into hot, savory pork, and you'll join the 170,000-a-day cult on the spot.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://kansai-odyssey.com/551-horai/",
+        "https://pitarijapan.com/locations/kansai/osaka-prefecture/osaka/places/551-horai-namba"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-kuidaore",
+      "section": "eat",
+      "icon": "💸",
+      "title_en": "Osaka has a word for eating yourself into bankruptcy. It's not a warning — it's a goal.",
+      "free_intro_en": "'Kuidaore' (食い倒れ) literally means to ruin yourself financially by spending on food. The old saying goes: 'Kyoto ruins you with clothes, Osaka ruins you with meals.'",
+      "paid_reveal_en": "This is a whole worldview, not a slogan. Osakans genuinely treat eating as the point of being alive, and 'cheap AND delicious' (yasukute umai) is the local religion — a flashy expensive place earns suspicion, while a grubby counter with a line of locals earns devotion. The lived strategy that follows: do NOT have one big sit-down meal. Graze. Takoyaki here, a skewer there, a butaman on the move, an okonomiyaki later. Eat standing up, eat walking, eat until kuidaore claims you too. Spend a night doing it the Osaka way and you'll finally understand a city that decided, centuries ago, that a perfect bite beats a perfect anything-else.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "http://jisaboke.com/all-about-japan/2014/10/26/kuidaore",
+        "https://en.wikipedia.org/wiki/D%C5%8Dtonbori"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-asanomi-day-drinking",
+      "section": "off_guidebook",
+      "icon": "🍶",
+      "title_en": "In Osaka, drinking a beer at 9am isn't a problem. It's a respected lifestyle.",
+      "free_intro_en": "Forget the Dotonbori tourist crush. The Osaka locals actually love is in the back alleys of Shinsekai and around Tenma, where 'asa-nomi' (morning drinking) bars open before lunch.",
+      "paid_reveal_en": "This is the deep-Osaka the English guides barely touch: tiny standing bars (tachinomi) where a glass of something and two or three snacks costs about 1,000 yen — the legendary 'senbero' (sen=1000 yen, bero=tipsy). Retired men, night-shift workers, and in-the-know locals pack in from morning, elbow to elbow, talking to total strangers (because Osakans WILL talk to you). There's no menu translation, no host stand, no Instagram lighting — just oden bubbling, dote-yaki (slow-simmered beef tendon) on the counter, and the warmest, loudest, most unguarded version of the city. Pull up a stool around noon, point and smile, and within ten minutes someone's buying you a drink and doing a comedy bit. THAT is the Osaka you'll fly home talking about.",
+      "layer": "lived",
+      "is_food": true,
+      "is_free_sample": false,
+      "sources": [
+        "https://1000bero.net/tabi_osaka/",
+        "https://mecicolle.gnavi.co.jp/report/detail/12377/"
+      ],
+      "factcheck": "confirmed"
+    },
+    {
+      "id": "osaka-strangers-talk-to-you",
+      "section": "off_guidebook",
+      "icon": "😄",
+      "title_en": "In Tokyo, strangers leave you alone. In Osaka, the shopkeeper will roast you, and that means he likes you.",
+      "free_intro_en": "Osakans have a national reputation for being the warmest, brashest, funniest people in Japan — they'll talk to strangers, haggle for sport, and turn buying socks into a comedy routine.",
+      "paid_reveal_en": "Here's the cultural cheat code no map gives you: that 'boke and tsukkomi' comedy reflex from the theater is baked into everyday life. A market vendor will toss you a joke; the correct response isn't polite silence (that reads as cold) — it's to play along, fake outrage, fire one back. Get it right and you've unlocked the friendliest big city in Japan. The lived move: skip the silent department-store experience and go to a covered shotengai (shopping arcade) like the ones around Tenjinbashisuji or Kuromon, where obachan run stalls they've had for decades. Buy something small, banter, accept the free taste they push on you. You came to Japan expecting reserved and quiet — Osaka hands you loud, generous, and laughing, and you'll wish every city felt this alive.",
+      "layer": "lived",
+      "is_food": false,
+      "is_free_sample": false,
+      "sources": [
+        "https://heyexplorer.com/what-is-osaka-known-and-famous-for/",
+        "https://livejapan.com/en/in-kansai/in-pref-osaka/in-namba_dotonbori_shinsaibashi/article-a2000113/"
+      ],
+      "factcheck": "confirmed"
+    }
+  ],
+  "meta": {
+    "language": "en",
+    "voice_ref": "kanda gold-standard",
+    "generated": "2026-06-09",
+    "status": "draft"
+  }
+}
