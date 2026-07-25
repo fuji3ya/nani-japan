@@ -49,6 +49,13 @@ export default function MapScreen() {
 
         <View style={s.mapWrap}>
           <SvgXml xml={JAPAN_SVG} width="100%" height="100%" />
+          {/* The map is a static SVG string, so its prefectures cannot carry press
+              handlers the way the HTML prototype's can. These invisible 56pt targets
+              sit on the coral regions' measured centres (converted out of the
+              prototype's letterboxed 354x340 box into this square one) so tapping
+              the land itself works, not just the label. */}
+          <Hit style={{ left: '58.57%', top: '74.17%' }} onPress={() => setSheet('tokyo')} label="Tokyo" />
+          <Hit style={{ left: '38.20%', top: '71.91%' }} onPress={() => setSheet('kansai')} label="Kansai" />
           {/* overlay label chips (approx centroids; tap to open the region sheet) */}
           <Chip style={{ left: '60%', top: '50%' }} onPress={() => setSheet('tokyo')}
             label="Tokyo" jp="東京" sub={`7 areas · ${TOKYO_SECRETS}`} />
@@ -82,6 +89,18 @@ export default function MapScreen() {
         title="Kansai" jp="関西" sub="Old Japan's beating heart — temples, food, and the funniest people in the country."
         rows={KANSAI_CITIES.map((c) => ({ id: c, tease: CITY_TEASE[c] }))} onPick={go} />
     </View>
+  );
+}
+
+function Hit({ style, onPress, label }: { style: object; onPress: () => void; label: string }) {
+  return (
+    <Pressable
+      style={[s.hit, style]}
+      onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={`${label} — open the area list`}
+      hitSlop={6}
+    />
   );
 }
 
@@ -133,6 +152,8 @@ const s = StyleSheet.create({
   brandJp: { fontFamily: F.bodyBold, fontSize: 14, color: C.taupe, marginTop: 2 },
   mapSub: { fontFamily: F.body, fontSize: 15, lineHeight: 23, color: C.taupeDeep, marginTop: 9, maxWidth: 300 },
   mapWrap: { width: '100%', aspectRatio: 1, marginTop: 8, position: 'relative' },
+  // 56pt clears Apple's 44pt minimum; negative margins centre it on the region.
+  hit: { position: 'absolute', width: 56, height: 56, marginLeft: -28, marginTop: -28, borderRadius: 28 },
   chip: {
     position: 'absolute', backgroundColor: 'rgba(255,253,247,0.97)', borderWidth: 1, borderColor: C.line,
     borderRadius: 12, paddingVertical: 6, paddingHorizontal: 12,
