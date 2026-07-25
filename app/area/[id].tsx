@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable, StyleSheet, Linking } from 'react-native';
+import { View, Text, ScrollView, Pressable, StyleSheet, Linking, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import {
@@ -6,7 +6,7 @@ import {
   type Card, type Area,
 } from '../../lib/content';
 import { useUnlocked } from '../../lib/unlockStore';
-import { C, F } from '../../lib/theme';
+import { C, F, SECTION_KANJI } from '../../lib/theme';
 
 const SECTIONS: Card['section'][] = ['culture', 'eat', 'off_guidebook'];
 
@@ -36,7 +36,7 @@ export default function AreaScreen() {
         <Text style={s.tbName}><Text style={s.tbJp}>{a.name_ja} </Text>{a.name_en}</Text>
       </View>
 
-      <ScrollView contentContainerStyle={{ paddingBottom: unlocked ? 40 : 110 }}>
+      <ScrollView contentContainerStyle={{ paddingBottom: unlocked ? 40 + insets.bottom : 118 + insets.bottom }}>
         {/* hero */}
         <View style={s.hero}>
           <Text style={s.heroKanji} numberOfLines={1}>{a.name_ja}</Text>
@@ -49,7 +49,7 @@ export default function AreaScreen() {
           <View style={s.metaRow}>
             <Meta>{a.cards.length} secrets</Meta>
             <Meta free>{a.cards.filter((c) => c.is_free_sample).length} free</Meta>
-            <Meta>{a.cards.filter((c) => c.is_food).length} about food 🍜</Meta>
+            <Meta>{a.cards.filter((c) => c.is_food).length} about food</Meta>
           </View>
         </View>
 
@@ -61,9 +61,8 @@ export default function AreaScreen() {
               contentContainerStyle={{ paddingHorizontal: 22, paddingVertical: 13, gap: 11 }}>
               {a.eat_quicklist.map((e, i) => (
                 <View key={i} style={s.eatChip}>
-                  <Text style={{ fontSize: 24 }}>{e.icon}</Text>
                   <Text style={s.eatLb}>{e.label_en}</Text>
-                  <Text style={s.eatBl}>{e.blurb_en}</Text>
+                  <Text style={s.eatBl} numberOfLines={3}>{e.blurb_en}</Text>
                 </View>
               ))}
             </ScrollView>
@@ -96,7 +95,12 @@ export default function AreaScreen() {
 
       {/* fixed paybar */}
       {!unlocked && (
-        <Pressable style={[s.paybar, { paddingBottom: 14 }]} onPress={toPay}>
+        <Pressable
+          style={[s.paybar, { bottom: Math.max(insets.bottom, 14) }]}
+          onPress={toPay}
+          accessibilityRole="button"
+          accessibilityLabel={`Unlock all Japan for 5.99 dollars — ${locked} more secrets in ${a.name_en}, all ${AREAS.length} areas, one-time purchase`}
+        >
           <View style={{ flex: 1 }}>
             <Text style={s.paybarT1}>Unlock all Japan</Text>
             <Text style={s.paybarT2}>{locked} secrets here · all {AREAS.length} areas · forever</Text>
@@ -121,7 +125,11 @@ function CardView({ card, unlocked, onUnlock }: { card: Card; unlocked: boolean;
   return (
     <View style={[s.card, card.is_free_sample && s.freeCard]}>
       <View style={s.cardTop}>
-        <View style={s.cardIc}><Text style={{ fontSize: 23 }}>{card.icon ?? '✨'}</Text></View>
+        <View style={[s.cardIc, card.section === 'off_guidebook' && s.cardIcHot]}>
+          <Text style={[s.cardIcTxt, card.section === 'off_guidebook' && { color: C.coralDeep }]}>
+            {SECTION_KANJI[card.section] ?? '記'}
+          </Text>
+        </View>
         <View style={{ flex: 1 }}>
           {card.is_free_sample && <Text style={s.freeTag}>★ FREE SAMPLE</Text>}
           <Text style={s.cardTitle}>{card.title_en}</Text>
@@ -134,9 +142,14 @@ function CardView({ card, unlocked, onUnlock }: { card: Card; unlocked: boolean;
           <Text style={s.revealTxt}>{card.paid_reveal_en}</Text>
         </View>
       ) : (
-        <Pressable style={s.sealed} onPress={onUnlock}>
+        <Pressable
+          style={s.sealed}
+          onPress={onUnlock}
+          accessibilityRole="button"
+          accessibilityLabel={`Sealed: ${card.title_en}. Unlock the local's version.`}
+        >
           <View style={s.seal}><Text style={s.sealTxt}>秘</Text></View>
-          <View style={s.unlockPill}><Text style={s.unlockPillTxt}>🔓 Unlock the local's version</Text></View>
+          <View style={s.unlockPill}><Text style={s.unlockPillTxt}>Unlock the local's version</Text></View>
           <Text style={s.sealHint}>Free: the guidebook · Unlocked: the local who lives here</Text>
         </Pressable>
       )}
@@ -154,12 +167,17 @@ function Sister({ area }: { area: Area }) {
       <View style={s.dia}><Text style={s.diaJp}>{d.jp}</Text><Text style={s.diaEn}>{d.en}</Text></View>
       <Text style={s.sisterP}>{d.line} <Text style={{ color: '#fff', fontFamily: F.bodyBold }}>Nani?! Japanese</Text> teaches the fun, weird, real Japanese textbooks skip.</Text>
       <View style={s.sisterRow}>
-        <View style={s.appicon}><Text style={s.appiconTxt}>なに</Text></View>
+        <Image source={require('../../assets/images/sister-icon.png')} style={s.appicon} />
         <View style={{ flex: 1 }}>
           <Text style={s.sisterMetaB}>Nani?! Japanese</Text>
           <Text style={s.sisterMetaS}>Free · Education · iPhone</Text>
         </View>
-        <Pressable style={s.get} onPress={() => Linking.openURL(APPSTORE_SISTER)}>
+        <Pressable
+          style={s.get}
+          onPress={() => Linking.openURL(APPSTORE_SISTER)}
+          accessibilityRole="link"
+          accessibilityLabel="Get Nani?! Japanese on the App Store"
+        >
           <Text style={s.getTxt}>Get it ↗</Text>
         </Pressable>
       </View>
@@ -187,8 +205,8 @@ const s = StyleSheet.create({
   pillTxt: { fontFamily: F.bodyBold, fontSize: 11, color: C.taupeDeep },
   eatStrip: { paddingTop: 20 },
   eyebrow: { fontFamily: F.bodyHeavy, fontSize: 10.5, letterSpacing: 1.8, color: C.taupe, paddingHorizontal: 22 },
-  eatChip: { width: 156, backgroundColor: '#fff', borderWidth: 1, borderColor: C.line, borderRadius: 18, padding: 14 },
-  eatLb: { fontFamily: F.bodyHeavy, fontSize: 14, color: C.ink, marginTop: 9, marginBottom: 4 },
+  eatChip: { width: 208, backgroundColor: '#fff', borderWidth: 1, borderColor: C.line, borderRadius: 18, paddingVertical: 14, paddingHorizontal: 15 },
+  eatLb: { fontFamily: F.bodyHeavy, fontSize: 14, color: C.ink, marginBottom: 5 },
   eatBl: { fontFamily: F.body, fontSize: 12, lineHeight: 17, color: C.taupe },
   sectionHead: { flexDirection: 'row', alignItems: 'center', gap: 11, paddingHorizontal: 22, paddingTop: 24, paddingBottom: 2 },
   sectionTag: { fontFamily: F.bodyHeavy, fontSize: 11, letterSpacing: 1.8, color: C.taupe },
@@ -198,6 +216,8 @@ const s = StyleSheet.create({
   freeCard: { borderColor: '#FFD8E0' },
   cardTop: { flexDirection: 'row', gap: 13, alignItems: 'flex-start' },
   cardIc: { width: 46, height: 46, borderRadius: 15, backgroundColor: C.beige2, borderWidth: 1, borderColor: C.line, alignItems: 'center', justifyContent: 'center' },
+  cardIcHot: { backgroundColor: C.coralSoft, borderColor: '#FFD3DC' },
+  cardIcTxt: { fontFamily: F.mincho, fontSize: 22, lineHeight: 26, color: C.taupeDeep },
   freeTag: { fontFamily: F.bodyHeavy, fontSize: 10, letterSpacing: 1, color: '#fff', backgroundColor: C.coral, borderRadius: 6, paddingVertical: 3, paddingHorizontal: 8, alignSelf: 'flex-start', marginBottom: 7, overflow: 'hidden' },
   cardTitle: { fontFamily: F.bodyHeavy, fontSize: 17, lineHeight: 24, color: C.ink },
   cardIntro: { fontFamily: F.body, fontSize: 14.5, lineHeight: 25, color: C.inkSoft, marginTop: 11 },
@@ -218,8 +238,7 @@ const s = StyleSheet.create({
   diaEn: { fontFamily: F.bodyBold, fontSize: 11.5, color: '#C9C2B2' },
   sisterP: { fontFamily: F.body, fontSize: 13.5, lineHeight: 21, color: '#C9C2B2', marginBottom: 14 },
   sisterRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
-  appicon: { width: 46, height: 46, borderRadius: 12, backgroundColor: C.coralDeep, alignItems: 'center', justifyContent: 'center' },
-  appiconTxt: { fontFamily: F.bodyHeavy, fontSize: 17, color: '#fff' },
+  appicon: { width: 46, height: 46, borderRadius: 12 },
   sisterMetaB: { fontFamily: F.bodyHeavy, fontSize: 14, color: '#fff' },
   sisterMetaS: { fontFamily: F.bodyBold, fontSize: 11.5, color: '#9b9484' },
   get: { backgroundColor: '#fff', borderRadius: 999, paddingVertical: 11, paddingHorizontal: 17 },

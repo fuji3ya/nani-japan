@@ -11,9 +11,8 @@ import {
 } from '../lib/content';
 import { C, F } from '../lib/theme';
 
-const WARD_EMOJI: Record<string, string> = {
-  kanda: '🍶', shibuya: '🚥', asakusa: '🏮', shinjuku: '🌃', akihabara: '📻', harajuku: '🎀', ueno: '🐼',
-};
+/** Area tile shows the place's own kanji — the app's icon language (see lib/theme). */
+const areaKanji = (id: string) => (byId[id]?.name_ja ?? '?').charAt(0);
 const WARD_TEASE: Record<string, string> = {
   kanda: 'Salaryman heartland · lunch battleground · IT shrine',
   shibuya: 'The Scramble · 70-year alley bars · the quiet Shibuya',
@@ -23,7 +22,6 @@ const WARD_TEASE: Record<string, string> = {
   harajuku: 'Kawaii HQ · hand-planted forest · hidden alleys',
   ueno: 'Pandas & museums · senbero · black-market bazaar',
 };
-const CITY_EMOJI: Record<string, string> = { kyoto: '⛩️', osaka: '🐙', nara: '🦌' };
 const CITY_TEASE: Record<string, string> = {
   kyoto: 'Temples · geisha district · matcha · the overtourism truth',
   osaka: 'Kuidaore food · comedy capital · the kushikatsu law',
@@ -67,7 +65,7 @@ export default function MapScreen() {
         <View style={s.startRow}>
           {['kanda', 'osaka', 'nara'].map((id) => (
             <Pressable key={id} style={s.startCard} onPress={() => go(id)}>
-              <Text style={s.startEm}>{{ kanda: '🍶', osaka: '🐙', nara: '🦌' }[id]}</Text>
+              <Text style={s.startEm}>{areaKanji(id)}</Text>
               <Text style={s.startNm}>{byId[id].name_en}</Text>
               <Text style={s.startCt}>{byId[id].cards.length} secrets</Text>
             </Pressable>
@@ -78,11 +76,11 @@ export default function MapScreen() {
       <RegionSheet
         open={sheet === 'tokyo'} onClose={() => setSheet(null)}
         title="Tokyo" jp="東京" sub="Seven neighborhoods, seven completely different cities."
-        rows={TOKYO_WARDS.map((w) => ({ id: w, emoji: WARD_EMOJI[w], tease: WARD_TEASE[w] }))} onPick={go} />
+        rows={TOKYO_WARDS.map((w) => ({ id: w, tease: WARD_TEASE[w] }))} onPick={go} />
       <RegionSheet
         open={sheet === 'kansai'} onClose={() => setSheet(null)}
         title="Kansai" jp="関西" sub="Old Japan's beating heart — temples, food, and the funniest people in the country."
-        rows={KANSAI_CITIES.map((c) => ({ id: c, emoji: CITY_EMOJI[c], tease: CITY_TEASE[c] }))} onPick={go} />
+        rows={KANSAI_CITIES.map((c) => ({ id: c, tease: CITY_TEASE[c] }))} onPick={go} />
     </View>
   );
 }
@@ -100,7 +98,7 @@ function Chip({ style, onPress, label, jp, sub }: {
 
 function RegionSheet({ open, onClose, title, jp, sub, rows, onPick }: {
   open: boolean; onClose: () => void; title: string; jp: string; sub: string;
-  rows: { id: string; emoji: string; tease: string }[]; onPick: (id: string) => void;
+  rows: { id: string; tease: string }[]; onPick: (id: string) => void;
 }) {
   return (
     <Modal visible={open} transparent animationType="slide" onRequestClose={onClose}>
@@ -114,7 +112,7 @@ function RegionSheet({ open, onClose, title, jp, sub, rows, onPick }: {
         <Text style={s.sheetSub}>{sub}</Text>
         {rows.map((r) => (
           <Pressable key={r.id} style={s.wardRow} onPress={() => onPick(r.id)}>
-            <View style={s.wardEmoji}><Text style={{ fontSize: 23 }}>{r.emoji}</Text></View>
+            <View style={s.wardTile}><Text style={s.wardTileTxt}>{areaKanji(r.id)}</Text></View>
             <View style={{ flex: 1 }}>
               <Text style={s.wardNm}>{byId[r.id].name_en} <Text style={s.wardNmJp}>{byId[r.id].name_ja}</Text></Text>
               <Text style={s.wardTease}>{r.tease}</Text>
@@ -150,7 +148,7 @@ const s = StyleSheet.create({
     flex: 1, backgroundColor: '#fff', borderWidth: 1, borderColor: C.line, borderRadius: 18, padding: 13,
     shadowColor: '#15130F', shadowOpacity: 0.06, shadowRadius: 14, shadowOffset: { width: 0, height: 8 }, elevation: 2,
   },
-  startEm: { fontSize: 22 },
+  startEm: { fontFamily: F.mincho, fontSize: 25, lineHeight: 29, color: C.coralDeep },
   startNm: { fontFamily: F.bodyHeavy, fontSize: 14, color: C.ink, marginTop: 8 },
   startCt: { fontFamily: F.bodyBold, fontSize: 11, color: C.taupe, marginTop: 2 },
   veil: { flex: 1, backgroundColor: 'rgba(21,19,15,0.5)' },
@@ -164,7 +162,8 @@ const s = StyleSheet.create({
   sheetJp: { fontFamily: F.bodyHeavy, fontSize: 16, color: C.coral },
   sheetSub: { fontFamily: F.body, fontSize: 13.5, color: C.taupe, marginTop: 3, marginBottom: 12 },
   wardRow: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: C.beige2 },
-  wardEmoji: { width: 46, height: 46, borderRadius: 15, backgroundColor: C.beige2, borderWidth: 1, borderColor: C.line, alignItems: 'center', justifyContent: 'center' },
+  wardTile: { width: 46, height: 46, borderRadius: 15, backgroundColor: C.beige2, borderWidth: 1, borderColor: C.line, alignItems: 'center', justifyContent: 'center' },
+  wardTileTxt: { fontFamily: F.mincho, fontSize: 23, lineHeight: 27, color: C.inkSoft },
   wardNm: { fontFamily: F.bodyHeavy, fontSize: 16, color: C.ink },
   wardNmJp: { fontFamily: F.bodyBold, fontSize: 12.5, color: C.taupe },
   wardTease: { fontFamily: F.body, fontSize: 12, color: C.taupeDeep, marginTop: 2, lineHeight: 16 },

@@ -18,10 +18,20 @@ export const C = {
 } as const;
 
 // Font families = @expo-google-fonts export keys (loaded in app/_layout.tsx).
+// `mincho` is an iOS system face (no bundling): the kanji tiles read as stamped
+// ink rather than UI text, which is what separates this from emoji-badge apps.
 export const F = {
   display: 'BricolageGrotesque_800ExtraBold', // brand + headings
   displaySemi: 'BricolageGrotesque_700Bold',
   body: 'LINESeedJP_400Regular',
   bodyBold: 'LINESeedJP_700Bold',
   bodyHeavy: 'LINESeedJP_800ExtraBold',
+  mincho: 'HiraMinProN-W6',
 } as const;
+
+/** Icon language = the app's own signature (hanko + kanji), never emoji. */
+export const SECTION_KANJI: Record<string, string> = {
+  culture: '文',
+  eat: '食',
+  off_guidebook: '秘',
+};
