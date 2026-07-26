@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, ActivityIndicator, Alert } from 'react-native';
+import { View, Text, Pressable, StyleSheet, ActivityIndicator, Alert, ScrollView } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { getUnlockPrice, purchaseUnlock, restorePurchases } from '../lib/purchases';
@@ -35,8 +35,16 @@ export default function Paywall() {
 
   return (
     <View style={{ flex: 1, backgroundColor: C.washi, paddingTop: insets.top }}>
-      <Pressable style={s.close} onPress={() => router.back()}><Text style={s.closeTxt}>✕</Text></Pressable>
-      <View style={s.body}>
+      <Pressable
+        style={s.close}
+        onPress={() => router.back()}
+        accessibilityRole="button"
+        accessibilityLabel="Close"
+      ><Text style={s.closeTxt}>✕</Text></Pressable>
+      {/* Scrolls because Restore must stay reachable: on a 568pt screen the fixed
+          layout pushed it past the bottom edge, and an unreachable Restore is a
+          3.1.1 rejection as well as a dead end for anyone reinstalling. */}
+      <ScrollView contentContainerStyle={[s.body, { paddingBottom: insets.bottom + 24 }]}>
         <Text style={s.h}>Free: the guidebook.{'\n'}Unlocked: <Text style={{ color: C.coral }}>the local who lives here.</Text></Text>
         <Text style={s.pitch}>Every sealed card hides the part you can't Google — the insider move, the timing trick, the unwritten rule.</Text>
 
@@ -44,13 +52,13 @@ export default function Paywall() {
         <Line>One-time purchase. No subscription, no expiry. New areas included free.</Line>
         <Line>Works fully offline — built for airplane mode over the Pacific.</Line>
 
-        <Pressable style={s.buy} onPress={buy} disabled={busy}>
+        <Pressable style={s.buy} onPress={buy} disabled={busy} accessibilityRole="button" accessibilityLabel={`Unlock all Japan for ${price}, one-time purchase`}>
           {busy ? <ActivityIndicator color="#fff" /> : <Text style={s.buyTxt}>Unlock all Japan · {price}</Text>}
         </Pressable>
-        <Pressable style={s.restore} onPress={restore} disabled={busy}>
+        <Pressable style={s.restore} onPress={restore} disabled={busy} accessibilityRole="button" accessibilityLabel="Restore a previous purchase">
           <Text style={s.restoreTxt}>Restore purchase</Text>
         </Pressable>
-      </View>
+      </ScrollView>
     </View>
   );
 }
