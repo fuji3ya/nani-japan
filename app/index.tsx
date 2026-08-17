@@ -39,6 +39,15 @@ export default function MapScreen() {
   return (
     <View style={{ flex: 1, backgroundColor: C.washi }}>
       <ScrollView contentContainerStyle={{ padding: 24, paddingTop: insets.top + 22, paddingBottom: 48 }}>
+        <Pressable
+          style={[s.settingsTile, { top: insets.top + 16 }]}
+          onPress={() => router.push('/settings')}
+          accessibilityRole="button"
+          accessibilityLabel="Settings — purchase status, restore, privacy policy"
+          hitSlop={6}
+        >
+          <Text style={s.settingsTileTxt}>設</Text>
+        </Pressable>
         <View style={s.coverEyebrow}>
           <View style={s.eyebrowTick} />
           <Text style={s.coverEyebrowTxt}>INSIDER JAPAN · 旅の裏側</Text>
@@ -151,6 +160,8 @@ const s = StyleSheet.create({
   brand: { fontFamily: F.display, fontSize: 40, color: C.ink, letterSpacing: -1.4 },
   brandJp: { fontFamily: F.bodyBold, fontSize: 14, color: C.taupe, marginTop: 2 },
   mapSub: { fontFamily: F.body, fontSize: 15, lineHeight: 23, color: C.taupeDeep, marginTop: 9, maxWidth: 300 },
+  settingsTile: { position: 'absolute', right: 18, width: 44, height: 44, borderRadius: 15, backgroundColor: 'rgba(255,255,255,0.8)', borderWidth: 1, borderColor: C.line, alignItems: 'center', justifyContent: 'center', zIndex: 5 },
+  settingsTileTxt: { fontFamily: F.mincho, fontSize: 20, lineHeight: 24, color: C.taupeDeep },
   mapWrap: { width: '100%', aspectRatio: 1, marginTop: 8, position: 'relative' },
   // 56pt clears Apple's 44pt minimum; negative margins centre it on the region.
   hit: { position: 'absolute', width: 56, height: 56, marginLeft: -28, marginTop: -28, borderRadius: 28 },
