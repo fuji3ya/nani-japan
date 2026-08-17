@@ -12,6 +12,7 @@
 import Purchases, { LOG_LEVEL, type PurchasesOffering } from 'react-native-purchases';
 import { Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { setUnlocked } from './unlockStore';
 
 const RC_API_KEY_IOS = process.env.EXPO_PUBLIC_RC_API_KEY_IOS;
 const RC_API_KEY_ANDROID = process.env.EXPO_PUBLIC_RC_API_KEY_ANDROID;
@@ -32,6 +33,13 @@ export async function initPurchases(userId?: string): Promise<void> {
   }
   Purchases.setLogLevel(__DEV__ ? LOG_LEVEL.DEBUG : LOG_LEVEL.INFO);
   await Purchases.configure({ apiKey: key, appUserID: userId });
+  // Push-driven entitlement updates. Without this, an Ask-to-Buy purchase the
+  // parent approves later (RC delivers it asynchronously) or a refund/revocation
+  // only lands on the next foreground reconcile; with it, the unlock flips the
+  // moment RC hears about it.
+  Purchases.addCustomerInfoUpdateListener((info) => {
+    setUnlocked(!!info.entitlements.active[ENTITLEMENT_ID]?.isActive);
+  });
   initialized = true;
 }
 
