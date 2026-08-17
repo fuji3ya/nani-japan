@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { View, Text, ScrollView, Pressable, StyleSheet, Linking, Image } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
@@ -6,6 +7,7 @@ import {
   type Card, type Area,
 } from '../../lib/content';
 import { useUnlocked } from '../../lib/unlockStore';
+import { getUnlockPrice } from '../../lib/purchases';
 import { C, F, SECTION_KANJI } from '../../lib/theme';
 
 const SECTIONS: Card['section'][] = ['culture', 'eat', 'off_guidebook'];
@@ -15,16 +17,28 @@ export default function AreaScreen() {
   const router = useRouter();
   const { id } = useLocalSearchParams<{ id: string }>();
   const unlocked = useUnlocked();
+  // Localized store price for the paybar — hardcoding "$5.99" shows the wrong
+  // currency everywhere outside the US storefront (paywall.tsx already does this).
+  const [price, setPrice] = useState('$5.99');
+  useEffect(() => { getUnlockPrice().then(setPrice).catch(() => {}); }, []);
   const a = byId[id as string] as Area | undefined;
   if (!a) {
     return (
-      <View style={{ flex: 1, backgroundColor: C.washi, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={{ flex: 1, backgroundColor: C.washi, alignItems: 'center', justifyContent: 'center', gap: 14 }}>
         <Text style={{ fontFamily: F.bodyBold, color: C.taupe }}>Area not found</Text>
+        <Pressable
+          onPress={() => router.replace('/')}
+          accessibilityRole="button"
+          accessibilityLabel="Back to the map"
+          style={{ backgroundColor: C.ink, borderRadius: 999, paddingVertical: 12, paddingHorizontal: 22 }}
+        >
+          <Text style={{ fontFamily: F.bodyHeavy, fontSize: 13.5, color: '#fff' }}>‹ Back to the map</Text>
+        </Pressable>
       </View>
     );
   }
   const locked = a.cards.filter((c) => !c.is_free_sample).length;
-  const toPay = () => router.push('/paywall');
+  const toPay = () => router.navigate('/paywall'); // navigate dedupes — double-tap can't stack two paywalls
 
   return (
     <View style={{ flex: 1, backgroundColor: C.washi }}>
@@ -99,13 +113,13 @@ export default function AreaScreen() {
           style={[s.paybar, { bottom: Math.max(insets.bottom, 14) }]}
           onPress={toPay}
           accessibilityRole="button"
-          accessibilityLabel={`Unlock all Japan for 5.99 dollars — ${locked} more secrets in ${a.name_en}, all ${AREAS.length} areas, one-time purchase`}
+          accessibilityLabel={`Unlock all Japan for ${price} — ${locked} more secrets in ${a.name_en}, all ${AREAS.length} areas, one-time purchase`}
         >
           <View style={{ flex: 1 }}>
             <Text style={s.paybarT1}>Unlock all Japan</Text>
             <Text style={s.paybarT2}>{locked} secrets here · all {AREAS.length} areas · forever</Text>
           </View>
-          <Text style={s.price}>$5.99</Text>
+          <Text style={s.price}>{price}</Text>
         </Pressable>
       )}
     </View>
